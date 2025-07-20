@@ -9,6 +9,12 @@ dotbot -c install.conf.yaml
 
 ```
 
+## Rime 操作
+
+```sh
+git submodule add https://github.com/JackyLee3362/rime-ice
+```
+
 ## 参考资料
 
 - [anishathalye/dotbot: A tool that bootstraps your dotfiles ⚡️](https://github.com/anishathalye/dotbot)
