@@ -6,7 +6,7 @@
 - clean: ['~']
 
 - link:
-    # 跨平台配置
+    # cross-platform
     ~/.vimrc: vim/.vimrc
     # ~/.tmux.conf: tmux.conf
     # linux / macos 专属
@@ -19,15 +19,17 @@
         path: neovim
     ~/AppData/Roaming/Rime:
         if: 'python platform.py win32'
-        path: rime-ice
+        glob: true
+        path: rime-ice/*
+        exclude:
+            - .git*
+            - custom_phrase.txt
+            - .*custom.yaml
+    ~/AppData/Roaming/Rime:
+        if: 'python platform.py win32'
+        glob: true
+        path: rime-custom/*
 
-
-
-    
-
-# - create:
-    # - ~/downloads
-    # - ~/.vim/undo-history
 
 # - shell:
 #   - [git submodule update --init --recursive, Installing submodules]
