@@ -1,0 +1,33 @@
+# 通用
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    # 跨平台配置
+    ~/.vimrc: vim/.vimrc
+    # ~/.tmux.conf: tmux.conf
+    # linux / macos 专属
+    ~/.nvim: 
+        if: 'python platform.py linux darwin'
+        path: neovim
+    # windows 专属
+    ~/AppData/Local/nvim: 
+        if: 'python platform.py win32'
+        path: neovim
+    ~/AppData/Roaming/Rime:
+        if: 'python platform.py win32'
+        path: rime-ice
+
+
+
+    
+
+# - create:
+    # - ~/downloads
+    # - ~/.vim/undo-history
+
+# - shell:
+#   - [git submodule update --init --recursive, Installing submodules]
