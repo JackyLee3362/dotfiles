@@ -1,0 +1,4 @@
+patch:
+  # style/color_scheme: azure
+  style/inline_preedit: false
+  style/font_point: 19
