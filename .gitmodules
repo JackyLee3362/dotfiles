@@ -1,0 +1,3 @@
+[submodule "rime-ice"]
+	path = rime-ice
+	url = https://github.com/JackyLee3362/rime-ice
