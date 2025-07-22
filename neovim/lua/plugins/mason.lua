@@ -8,7 +8,9 @@ return {
     opts = {},
     config = function(_, opts)
         require("mason").setup(opts)
-        local registry = require "mason-registry"
+
+        local registry = require("mason-registry")
+
         -- 定义函数，注册 LSP
         local function install(name)
             local s, p = pcall(registry.get_package, name)
@@ -16,8 +18,10 @@ return {
                 p:install()
             end
         end
-        local lspconfig = require "lspconfig"
-        local mason_lspconfig_mapping = require("mason-lspconfig").get_mappings().package_to_lspconfig
+
+        local lspconfig = require("lspconfig")
+        local mason_lspconfig_mapping = require("mason-lspconfig").get_mappings().mason_to_lspconfig
+
         local installed_packages = registry.get_installed_package_names()
 
         local function setup(name, config)
