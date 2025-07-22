@@ -39,6 +39,9 @@ noremap L $
 " 重做
 noremap R <C-r>
 
+" 复制
+noremap <leader>p "0p
+
 " 列选择模式
 " noremap sv <C-v>
 " leader
