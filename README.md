@@ -12,7 +12,7 @@ dotbot -c install.conf.yaml
 ## Rime 操作
 
 ```sh
-git submodule add https://github.com/JackyLee3362/rime-ice
+git submodule add https://github.com/iDvel/rime-ice
 ```
 
 ## 参考资料
