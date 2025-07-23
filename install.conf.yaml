@@ -32,15 +32,17 @@
     ~/AppData/Roaming/Rime:
         if: 'python platform.py win32'
         glob: true
-        path: rime-ice/*
+        path: rime-ice/* # rime-japanese/*
         exclude:
             - .git*
             - custom_phrase.txt
             - .*custom.yaml
-    ~/AppData/Roaming/Rime:
-        if: 'python platform.py win32'
-        glob: true
-        path: rime-custom/*
+    # ~/AppData/Roaming/Rime:
+    #     if: 'python platform.py win32'
+    #     glob: true
+    #     path: rime-custom/*
+
+# 注意⚠️：相同的键只能存在一个
 
 
 # - shell:

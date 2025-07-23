@@ -6,8 +6,10 @@
 #   rime_version: 1.11.2
 patch:
   schema_list:
-    - {schema: rime_ice}
+    - schema: rime_ice
+    - schema: japanese
   menu:
     page_size: 7
   switcher:
     hotkeys:
+      - F4
