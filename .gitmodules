@@ -1,10 +1,6 @@
 [submodule "rime-ice"]
 	path = rime-ice
 	url = https://github.com/iDvel/rime-ice
-[submodule "dotbot"]
-	path = dotbot
-	url = https://github.com/anishathalye/dotbot
-	ignore = dirty
 [submodule "rime-japanese"]
 	path = rime-japanese
 	url = https://github.com/gkovacs/rime-japanese
