@@ -13,6 +13,9 @@
     ~/.config/nvim: 
         if: 'python platform.py linux darwin'
         path: neovim
+    ~/.config/uv/uv.toml:
+        if: 'python platform.py linux darwin'
+        path: uv/uv.toml
     # windows 专属
     ~/AppData/Local/nvim: 
         if: 'python platform.py win32'
