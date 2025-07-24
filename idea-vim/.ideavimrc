@@ -1,0 +1,78 @@
+" idea 插件设置 surround
+set surround
+
+" idea 插件设置 easymotion
+set easymotion
+set NERDTree
+
+source ~/.vimrc
+
+" 文件内移动
+" 移动: 下一个方法
+nmap gj <action>(MethodDown)
+" 移动: 上一个方法
+nmap gk <action>(MethodUp)
+" 跳转: 返回
+nmap gh <action>(Back)
+" 跳转: 前进
+nmap gl <action>(Forward)
+
+" 跳转: 跳转定义
+nmap gd <action>(GotoDeclaration)
+" 跳转: 跳转用法
+nmap gu <action>(GotoDeclaration)
+" 跳转: 跳转测试
+nmap gt <action>(GotoTest)
+" 跳转: 跳转下一个错误
+nmap ge <action>(GotoNextError)
+" 跳转: 跳转实现
+nmap ga <action>(GotoImplementation)
+" 跳转: 跳转文件在目录中的位置
+nmap gf <action>(SelectInProjectView)
+
+" 显示: 参数信息
+nmap sp <action>(ParameterInfo)
+" 显示: 文件结构
+nmap so <action>(FileStructurePopup)
+" 显示: 文档
+nmap sd <action>(QuickJavaDoc)
+" 显示: 显示快速实现
+nmap si <action>(QuickImplementations)
+" 显示: 代码补全 > 基本
+nmap ss <action>(CodeCompletion)
+" 显示: 代码 > 生成
+nmap sg <action>(Generate)
+" 显示: 其他 > 显示上下文操作
+nmap se <action>(ShowIntentionActions)
+" 显示: 折叠 > 折叠代码块
+" nmap sj <action>(ExpandRegion)
+" 显示: 折叠 > 折叠代码块
+" nmap sk <action>(CollapseRegion)
+" 列选择模式
+" noremap sv <C-v>
+
+" NERDTree
+noremap nn :NERDTreeFocus<CR>
+
+" 窗口跳转
+nmap <leader>wh <action>(MoveToLeft)
+nmap <leader>wl <action>(MoveToRight)
+nmap <leader>wj <action>(MoveToDown)
+nmap <leader>wk <action>(MoveToUp)
+
+" 窗口分割
+nmap <leader>wml <action>(MoveTabRight)
+nmap <leader>wmj <action>(MoveTabDown)
+
+" 标签页跳转
+nmap tl <action>(NextTab)
+nmap th <action>(PreviousTab)
+nmap t1 <action>(GoToTab1)
+nmap t2 <action>(GoToTab2)
+nmap t3 <action>(GoToTab3)
+nmap t4 <action>(GoToTab4)
+nmap t5 <action>(GoToTab5)
+nmap t6 <action>(GoToTab6)
+nmap t7 <action>(GoToTab7)
+nmap t8 <action>(GoToTab8)
+nmap t9 <action>(GoToTab9)

@@ -7,27 +7,20 @@
 
 - link:
     ~/.vimrc: vim/.vimrc
+    ~/.ideavimrc: idea-vim/.ideavimrc
     # linux / macos 专属
-    ~/.config/nvim: 
-        if: 'python platform.py linux darwin'
-        path: neovim
-    ~/.config/uv/uv.toml:
-        if: 'python platform.py linux darwin'
-        path: uv/uv.toml
+    ~/.config/nvim: neovim
+    ~/.config/uv/uv.toml: uv/uv.toml
+    ~/Library/Rime/default.custom.yaml: rime-custom/default.custom.yaml
+    ~/Library/Rime/squirrel.custom.yaml: rime-custom/squirrel.custom.yaml
+    ~/Library/Rime/custom_phrase.txt: rime-custom/custom_phrase.txt
     ~/Library/Rime:
-        if: 'python platform.py linux darwin'
         glob: true
         path: rime-ice/*
         exclude:
             - .git*
             - custom_phrase.txt
             - .*custom.yaml
-    ~/Library/Rime/default.custom.yaml:
-        path: rime-custom/default.custom.yaml
-    ~/Library/Rime/squirrel.custom.yaml:
-        path: rime-custom/squirrel.custom.yaml
-    ~/Library/Rime/custom_phrase.txt:
-        path: rime-custom/custom_phrase.txt
 
 
 # - shell:

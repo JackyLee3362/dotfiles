@@ -7,13 +7,16 @@
 
 - link:
     ~/.vimrc: vim/.vimrc
-    ${LOCALAPPDATA}/nvim:
-      path: neovim
+    ~/.ideavimrc: idea-vim/.ideavimrc
+    ${LOCALAPPDATA}/nvim: neovim
     # uv 配置
     ${APPDATA}/uv/uv.toml:
       create: true
       path: uv/uv.toml
     # Rime 配置
+    ${APPDATA}/Rime/default.custom.yaml: rime-custom/default.custom.yaml
+    ${APPDATA}/Rime/weasel.custom.yaml: rime-custom/weasel.custom.yaml
+    ${APPDATA}/Rime/custom_phrase.txt: rime-custom/custom_phrase.txt
     ${APPDATA}/Rime:
       # $env:APPDATA
       glob: true
@@ -22,10 +25,3 @@
         - .git*
         - rime-ice/custom_phrase.txt
         - .*custom.yaml
-    ${APPDATA}/Rime/default.custom.yaml:
-      relink: true
-      path: rime-custom/default.custom.yaml
-    ${APPDATA}/Rime/weasel.custom.yaml:
-      path: rime-custom/weasel.custom.yaml
-    ${APPDATA}/Rime/custom_phrase.txt:
-      path: rime-custom/custom_phrase.txt
