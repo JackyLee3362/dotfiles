@@ -43,7 +43,8 @@ return {
                 }
             }
         }
-    }
+    },
+    enabled = not vim.g.vscode
 }
 
 

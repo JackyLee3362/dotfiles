@@ -66,7 +66,8 @@ return {
             -- 行级显示错误信息: 不建议
             -- virtual_lines = true,
         })
-    end
+    end,
+    enabled = not vim.g.vscode
 }
 
 -- 使用 :LspInfo 检查 LSP 是否启动

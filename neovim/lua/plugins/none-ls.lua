@@ -23,5 +23,6 @@ return {
     end,
     keys = {
         {"<leader>lf", vim.lsp.buf.format}
-    }
+    },
+    enabled = not vim.g.vscode
 }
