@@ -2,5 +2,6 @@ return {
     -- https://github.com/windwp/nvim-autopairs
     "windwp/nvim-autopairs",
     event = "InsertEnter",
-    config = true
+    config = true,
+    enabled = not vim.g.vscode
 }
