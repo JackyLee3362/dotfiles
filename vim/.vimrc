@@ -16,7 +16,7 @@ set hlsearch
 
 " 设置显示行号(或者set nu) , 取消用set nonumber/nu!
 set number
-" set relativenumber
+set relativenumber
 
 " 剪贴板设置
 set clipboard=unnamed
