@@ -7,7 +7,7 @@
 
 - link:
     ~/.vimrc: vim/.vimrc
-    # linux / macos 专属
+    ~/.zshrc: zshrc/.zshrc
     ~/.config/nvim: 
         if: 'python platform.py linux darwin'
         path: neovim
