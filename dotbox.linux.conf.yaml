@@ -8,6 +8,7 @@
 - link:
     ~/.vimrc: vim/.vimrc
     ~/.ideavimrc: idea/.ideavimrc
+    ~/.zshrc: zshrc/.zshrc
     # linux / macos 专属
     ~/.config/nvim: neovim
     ~/.config/uv/uv.toml: uv/uv.toml
