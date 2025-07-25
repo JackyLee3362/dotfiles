@@ -1,0 +1,23 @@
+# maven / uv / docker / neovim / tldr / nvm / pipx / conda
+
+# scoop install main/git
+# scoop install 7zip
+
+# 中优先级
+# scoop install clok # 统计代码行数
+# scoop install geekuninstaller
+# scoop install imageglass
+# scoop install obs-studio
+# scoop install obsidian
+
+# 低优先级
+# scoop install bison
+# scoop install mingw
+# scoop install openssl
+# scoop install obsidian
+# scoop install openark
+# scoop install pandoc
+# scoop install winmerge # 差异化工具，可以用 vscode 插件平替
+# scoop install darktable # 开源摄影工作流，类似 lightroom
+# tinywall
+# Stirling-PDF # pdf 处理工具，使用 wps 代替

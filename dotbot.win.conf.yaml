@@ -6,8 +6,8 @@
 - clean: ["~"]
 
 - link:
-    ~/.vimrc: vim/.vimrc
-    ~/.ideavimrc: idea-vim/.ideavimrc
+    ${HOME}/.vimrc: vim/.vimrc
+    ${HOME}/.ideavimrc: idea/.ideavimrc
     ${LOCALAPPDATA}/nvim: neovim
     # uv 配置
     ${APPDATA}/uv/uv.toml:
