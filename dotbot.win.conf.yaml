@@ -6,9 +6,21 @@
 - clean: ["~"]
 
 - link:
-    ${HOME}/.vimrc: vim/.vimrc
-    ${HOME}/.ideavimrc: idea/.ideavimrc
+    # python 配置
+    ~/.condarc: python/.condarc
+    # vim 配置
+    ~/.vimrc: vim/.vimrc
+    # idea 配置
+    ~/.ideavimrc: idea/.ideavimrc
+    # neovim 配置
     ${LOCALAPPDATA}/nvim: neovim
+    # maven 配置
+    ~/.m2/settings.xml: maven/settings.xml
+    # powershell 5 配置
+    ~/Documents/WindowsPowerShell/profile.ps1: powershell/profile.ps1
+    # powershell 7 配置
+    ~/Documents/PowerShell/profile.ps1: powershell/profile.ps1
+    ~/Documents/PowerShell/conda.ps1: powershell/conda.ps1
     # uv 配置
     ${APPDATA}/uv/uv.toml:
       create: true
@@ -20,8 +32,10 @@
     ${APPDATA}/Rime:
       # $env:APPDATA
       glob: true
-      path: rime-ice/* # rime-japanese/*
+      # path: rime-ice/* 
+      path: rime-japanese/*
       exclude:
         - .git*
         - rime-ice/custom_phrase.txt
-        - .*custom.yaml
+        - ".*custom.yaml"
+        - "**/*.md"
