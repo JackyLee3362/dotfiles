@@ -3,5 +3,4 @@ return {
     "windwp/nvim-autopairs",
     event = "InsertEnter",
     config = true,
-    enabled = not vim.g.vscode
 }

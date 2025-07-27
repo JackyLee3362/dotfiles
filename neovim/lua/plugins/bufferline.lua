@@ -39,5 +39,4 @@ return {
     -- ft: 当 buffer 为特定文件时加载
     -- keys: 当触发快捷键时加载，如果不存在则创建快捷键
     lazy = false,
-    enabled = not vim.g.vscode
 }

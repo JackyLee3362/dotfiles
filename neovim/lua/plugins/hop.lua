@@ -7,5 +7,5 @@ return {
     },
     keys = {
         {"<leader>hp", ":HopWord<CR>", silent = true}
-    }
+    },
 }

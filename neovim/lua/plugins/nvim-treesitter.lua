@@ -17,6 +17,5 @@ return {
     -- 使用 TSBufEnable highlight
     config = function(_, opts)
         require("nvim-treesitter").setup(opts)
-    end
-    
+    end,
 }

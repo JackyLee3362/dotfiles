@@ -22,5 +22,4 @@ return {
     },
     -- lualine 设计
     -- |A|B|C|              |X|Y|Z|
-    enabled = not vim.g.vscode
 }

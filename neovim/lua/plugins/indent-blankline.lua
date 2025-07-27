@@ -4,5 +4,4 @@ return {
     event = "VeryLazy",
     main = "ibl",
     opts = {},
-    enabled = not vim.g.vscode
 }

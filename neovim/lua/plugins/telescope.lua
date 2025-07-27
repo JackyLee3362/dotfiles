@@ -27,5 +27,4 @@ return {
         telescope.setup(opts)
         telescope.load_extension("fzf")
     end,
-    enabled = not vim.g.vscode
 }

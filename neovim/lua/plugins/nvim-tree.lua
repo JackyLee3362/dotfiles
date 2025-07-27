@@ -19,5 +19,4 @@ return {
     -- x 剪贴文件
     -- p 粘贴文件
     -- r 重命名
-    enabled = not vim.g.vscode
 }

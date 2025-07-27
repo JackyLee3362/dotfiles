@@ -27,5 +27,4 @@ return {
         { "<leader>d", ":Lspsaga hover_doc<CR>"},
         { "<leader>e",  ":Lspsaga code_action<CR>"},
     },
-    enabled = not vim.g.vscode
 }
