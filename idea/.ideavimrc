@@ -44,35 +44,16 @@ nmap ss <action>(CodeCompletion)
 nmap sg <action>(Generate)
 " 显示: 其他 > 显示上下文操作
 nmap se <action>(ShowIntentionActions)
+nmap <leader>e <action>(ShowIntentionActions)
 " 显示: 折叠 > 折叠代码块
-" nmap sj <action>(ExpandRegion)
+nmap <leader>j <action>(ExpandRegion)
 " 显示: 折叠 > 折叠代码块
-" nmap sk <action>(CollapseRegion)
+nmap <leader>k <action>(CollapseRegion)
 " 列选择模式
 " noremap sv <C-v>
-
-" NERDTree
-noremap nn :NERDTreeFocus<CR>
 
 " 窗口跳转
 nmap <leader>wh <action>(MoveToLeft)
 nmap <leader>wl <action>(MoveToRight)
 nmap <leader>wj <action>(MoveToDown)
 nmap <leader>wk <action>(MoveToUp)
-
-" 窗口分割
-nmap <leader>wml <action>(MoveTabRight)
-nmap <leader>wmj <action>(MoveTabDown)
-
-" 标签页跳转
-nmap tl <action>(NextTab)
-nmap th <action>(PreviousTab)
-nmap t1 <action>(GoToTab1)
-nmap t2 <action>(GoToTab2)
-nmap t3 <action>(GoToTab3)
-nmap t4 <action>(GoToTab4)
-nmap t5 <action>(GoToTab5)
-nmap t6 <action>(GoToTab6)
-nmap t7 <action>(GoToTab7)
-nmap t8 <action>(GoToTab8)
-nmap t9 <action>(GoToTab9)
