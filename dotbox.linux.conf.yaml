@@ -6,12 +6,18 @@
 - clean: ['~']
 
 - link:
+    # vim 配置
     ~/.vimrc: vim/.vimrc
+    # idea 配置
     ~/.ideavimrc: idea/.ideavimrc
+    # zshrc 配置
     ~/.zshrc: zshrc/.zshrc
+    ~/.p10k.zsh: zshrc/.p10k.zsh
     # linux / macos 专属
     ~/.config/nvim: neovim
+    # uv 配置
     ~/.config/uv/uv.toml: uv/uv.toml
+    # Rime 配置
     ~/Library/Rime/default.custom.yaml: rime-custom/default.custom.yaml
     ~/Library/Rime/squirrel.custom.yaml: rime-custom/squirrel.custom.yaml
     ~/Library/Rime/custom_phrase.txt: rime-custom/custom_phrase.txt
