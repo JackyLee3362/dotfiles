@@ -1,0 +1,46 @@
+{
+    "description": "misc_keymaps",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "tab",
+                    "modifiers": "command"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "control"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": {
+                "key_code": "q",
+                "modifiers": [
+                    "command",
+                    "control"
+                ]
+            },
+            "type": "basic"
+        }
+    ]
+}
