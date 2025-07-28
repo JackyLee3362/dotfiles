@@ -30,20 +30,22 @@ nmap ga <action>(GotoImplementation)
 " 跳转: 跳转文件在目录中的位置
 nmap gf <action>(SelectInProjectView)
 
-" 显示: 参数信息
-nmap sp <action>(ParameterInfo)
 " 显示: 文件结构
-nmap so <action>(FileStructurePopup)
-" 显示: 文档
-nmap sd <action>(QuickJavaDoc)
+nmap <leader><leader>o <action>(FileStructurePopup)
+nmap <leader><leader>s <action>(ActivateStructureToolWindow)
+nmap <leader><leader>b <action>(ActivateBookmarksToolWindow)
+
+" 显示: 参数信息
+nmap <leader>p <action>(ParameterInfo)
+" 显示: 文档/描述
+nmap <leader>d <action>(QuickJavaDoc)
 " 显示: 显示快速实现
-nmap si <action>(QuickImplementations)
-" 显示: 代码补全 > 基本
-nmap ss <action>(CodeCompletion)
+nmap <leader>i <action>(QuickImplementations)
+" 显示: 代码补全 > 基本 / vscode: 触发建议 / command/ctrl + i
+" nmap <leader>i <action>(CodeCompletion)
 " 显示: 代码 > 生成
-nmap sg <action>(Generate)
+nmap <leader>g <action>(Generate)
 " 显示: 其他 > 显示上下文操作
-nmap se <action>(ShowIntentionActions)
 nmap <leader>e <action>(ShowIntentionActions)
 " 显示: 折叠 > 折叠代码块
 nmap <leader>j <action>(ExpandRegion)
@@ -51,9 +53,3 @@ nmap <leader>j <action>(ExpandRegion)
 nmap <leader>k <action>(CollapseRegion)
 " 列选择模式
 " noremap sv <C-v>
-
-" 窗口跳转
-nmap <leader>wh <action>(MoveToLeft)
-nmap <leader>wl <action>(MoveToRight)
-nmap <leader>wj <action>(MoveToDown)
-nmap <leader>wk <action>(MoveToUp)
