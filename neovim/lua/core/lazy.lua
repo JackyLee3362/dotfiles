@@ -13,9 +13,20 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
+
+if vim.g.vscode then
+    -- VSCode extension
+    require("lazy").setup({
+        spec = {
+            { import = "extension" },
+        },
+    })
+    -- ordinary Neovim
+else
+    require("lazy").setup({
     spec = {
         { import = "plugins" },
     },
 })
+end
 

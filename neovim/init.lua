@@ -1,14 +1,12 @@
 require("core.basic")
 require("core.keymaps")
 require("core.autocmd")
+require("core.lazy")
 
 if vim.g.vscode then
     -- VSCode extension
     print("hello, vscode, I'm neovim")
-    require("vs.options")
-    require("vs.packer")
-else
+    require("core.vs")
     -- ordinary Neovim
-    require("core.lazy")
 end
 
