@@ -7,24 +7,24 @@
 
 - link:
     # python 配置
-    ~/.condarc: python/.condarc
+    ~/.condarc: lang/python/.condarc
     # vim 配置
-    ~/.vimrc: vim/.vimrc
+    ~/.vimrc: editor/vim/.vimrc
     # idea 配置
-    ~/.ideavimrc: idea/.ideavimrc
+    ~/.ideavimrc: editor/idea/.ideavimrc
     # neovim 配置
-    ${LOCALAPPDATA}/nvim: neovim
+    ${LOCALAPPDATA}/nvim: editor/neovim
     # maven 配置
-    ~/.m2/settings.xml: maven/settings.xml
+    ~/.m2/settings.xml: lang/java/mvn-settings.xml
     # powershell 5 配置
-    ~/Documents/WindowsPowerShell/profile.ps1: powershell/profile.ps1
+    ~/Documents/WindowsPowerShell/profile.ps1: shell/powershell/profile.ps1
     # powershell 7 配置
-    ~/Documents/PowerShell/profile.ps1: powershell/profile.ps1
-    ~/Documents/PowerShell/conda.ps1: powershell/conda.ps1
+    ~/Documents/PowerShell/profile.ps1: shell/powershell/profile.ps1
+    ~/Documents/PowerShell/conda.ps1: shell/powershell/conda.ps1
     # uv 配置
     ${APPDATA}/uv/uv.toml:
       create: true
-      path: uv/uv.toml
+      path: lang/python/uv.toml
     # Rime 配置
     ${APPDATA}/Rime/default.custom.yaml: rime-custom/default.custom.yaml
     ${APPDATA}/Rime/weasel.custom.yaml: rime-custom/weasel.custom.yaml
