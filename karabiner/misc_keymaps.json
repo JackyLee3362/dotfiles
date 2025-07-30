@@ -41,6 +41,41 @@
                 ]
             },
             "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f11"
+            },
+            "to": {
+                "key_code": "f",
+                "modifiers": [
+                    "command",
+                    "control"
+                ]
+            },
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Safari",
+                        "^com\\.google\\.Chrome",
+                        "^com\\.vivaldi\\.Vivaldi"
+                    ]
+                }
+            ],
+            "type": "basic",
+            "from": {
+                "key_code": "f5"
+            },
+            "to": {
+                "key_code": "r",
+                "modifiers": [
+                    "command"
+                ]
+            }
         }
     ]
 }
