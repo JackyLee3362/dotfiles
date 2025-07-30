@@ -4,6 +4,7 @@
 # scoop install 7zip
 # scoop install postgresql
 # scoop install mysql
+# scoop install anki
 
 # 中优先级
 # scoop install clok # 统计代码行数
