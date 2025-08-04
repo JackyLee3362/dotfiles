@@ -135,12 +135,24 @@ source $ZSH/oh-my-zsh.sh
 alias idea="/Users/jackylee/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/MacOS/idea"
 export TLDR_LANGUAGE="zh"
 export TLDR_CACHE_ENABLED=1
+
 # pipx 安装路径
 export PATH="${HOME}/.local/bin:$PATH"
 
 alias nv="nvim"
 alias vi="nvim"
 alias vim="nvim"
+
+# yazi 配置 from 官网
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+# Java 环境变量
 
 
 
