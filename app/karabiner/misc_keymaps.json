@@ -43,6 +43,16 @@
             "type": "basic"
         },
         {
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Safari",
+                        "^com\\.google\\.Chrome",
+                        "^com\\.vivaldi\\.Vivaldi"
+                    ]
+                }
+            ],
             "from": {
                 "key_code": "f11"
             },
