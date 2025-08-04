@@ -37,3 +37,41 @@ vim.keymap.set({"n", "i", "v"}, "<leader>w", ":bdelete<CR>" , opt)
 
 
 
+
+-- 粘贴
+vim.keymap.set({"n", "v"}, "<leader>p", "\"0p", opt)
+
+-- 撤销
+vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)
+
+-- 测试按键
+
+-- 粘贴
+vim.keymap.set({"n", "v"}, "<leader>p", "\"0p", opt)
+
+-- 撤销
+vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)
+
+-- 测试按键
+vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", {silent = true})
+
+-- 系统快捷键 ctrl
+vim.keymap.set({"n", "i", "v"}, "<leader>w", ":bdelete<CR>" , opt)
+
+
+
+
+-- 粘贴
+vim.keymap.set({"n", "v"}, "<leader>p", "\"0p", opt)
+
+-- 撤销
+vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)
+
+-- 测试按键
+vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", {silent = true})
+
+-- 系统快捷键 ctrl
+vim.keymap.set({"n", "i", "v"}, "<leader>w", ":bdelete<CR>" , opt)
+
+
+

@@ -3,6 +3,9 @@ local vscode = require("vscode")
 vim.keymap.set({"n"}, "<leader>e", function() vscode.notify('Custom message!') end)
 vim.keymap.set({"n"}, "<leader>j", function() vscode.action('editor.unfoldRecursively') end)
 vim.keymap.set({"n"}, "<leader>k", function() vscode.action('editor.foldRecursively') end)
+vim.keymap.set({"n"}, "gh", function() vscode.action('workbench.action.navigateBack') end)
+vim.keymap.set({"n"}, "gl", function() vscode.action('workbench.action.navigateForward') end)
+vim.keymap.set({"n"}, "gf", function() vscode.action('workbench.files.action.focusFilesExplorer') end)
 -- vscode 的 api 包括
 --
 -- 1. 展示消息: vscode.notify("hello, neovim-vscode")
