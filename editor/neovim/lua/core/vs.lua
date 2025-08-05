@@ -6,6 +6,10 @@ vim.keymap.set({"n"}, "<leader>k", function() vscode.action('editor.foldRecursiv
 vim.keymap.set({"n"}, "gh", function() vscode.action('workbench.action.navigateBack') end)
 vim.keymap.set({"n"}, "gl", function() vscode.action('workbench.action.navigateForward') end)
 vim.keymap.set({"n"}, "gf", function() vscode.action('workbench.files.action.focusFilesExplorer') end)
+vim.keymap.set({"n"}, "gu", function() vscode.action('editor.action.goToReferences') end)
+vim.keymap.set({"n"}, "ga", function() vscode.action('editor.action.goToImplementation') end)
+vim.keymap.set({"n"}, "<leader><leader>o", function() vscode.action('workbench.action.gotoSymbol') end)
+
 -- vscode 的 api 包括
 --
 -- 1. 展示消息: vscode.notify("hello, neovim-vscode")
