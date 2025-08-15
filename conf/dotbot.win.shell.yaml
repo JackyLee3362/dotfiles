@@ -5,6 +5,8 @@
 # scoop install postgresql
 # scoop install mysql
 # scoop install anki
+# scoop install miniconda3
+# scoop install dbeaver
 
 # 中优先级
 # scoop install clok # 统计代码行数
