@@ -16,7 +16,13 @@ git commit -m
 git push
 git pull
 git checkout
-git
+# 切换分支
+git switch
+```
+
+```sh
+# 查看状态
+git status
 ```
 
 ## 全局配置
