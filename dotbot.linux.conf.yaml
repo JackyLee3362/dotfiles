@@ -10,6 +10,8 @@
     ~/.vimrc: editor/vim/.vimrc
     # idea 配置
     ~/.ideavimrc: editor/idea/.ideavimrc
+    # bashrc 配置
+    ~/.bash_profile: shell/bash/.bash_profile
     # zshrc 配置
     ~/.zshrc: shell/zshrc/.zshrc
     ~/.p10k.zsh: shell/zshrc/.p10k.zsh
@@ -26,7 +28,7 @@
         path: rime-ice/*
         exclude:
             - .git*
-            - custom_phrase.txt
+            - "**/custom_phrase.txt"
             - .*custom.yaml
 
 
