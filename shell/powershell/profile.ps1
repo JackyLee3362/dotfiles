@@ -11,3 +11,11 @@ Set-Alias -Name init-conda -Value $env:USERPROFILE\Documents\Powershell\conda.ps
 # 设置 tldr 环境变量
 $env:TLDR_LANGUAGE="zh"
 $env:TLDR_CACHE_ENABLED=1
+
+#region conda initialize
+# !! Contents within this block are managed by 'conda init' !!
+If (Test-Path "C:\Users\JACKYLEE\scoop\apps\miniconda3\current\Scripts\conda.exe") {
+    (& "C:\Users\JACKYLEE\scoop\apps\miniconda3\current\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+}
+#endregion
+

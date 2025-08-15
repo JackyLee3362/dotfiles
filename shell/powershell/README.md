@@ -1,7 +1,7 @@
 ---
 title: powershell
 author: JackyLee
-created_date: 
+created_date:
   - 2025-04-28
   - 2025-07-27
 tags:
@@ -26,7 +26,7 @@ description:
 winget install --id Microsoft.PowerShell --source winget
 ```
 
-[在 Windows 上安装 PowerShell - PowerShell | Microsoft Learn]: https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5
+[在 Windows 上安装 PowerShell - PowerShell | Microsoft Learn](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
 
 ## 基础使用
 
