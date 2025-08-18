@@ -7,7 +7,7 @@
 patch:
   schema_list:
     - schema: rime_ice
-    - schema: japanese
+    # - schema: japanese
   menu:
     page_size: 7
   switcher:
