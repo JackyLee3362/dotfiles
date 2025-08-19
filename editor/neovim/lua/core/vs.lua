@@ -26,7 +26,7 @@ vim.keymap.set({"n"}, "gu", function() vscode.action('editor.action.goToReferenc
 -- 跳转到下一个实现
 vim.keymap.set({"n"}, "ga", function() vscode.action('editor.action.goToImplementation') end)
 -- 跳转到下一个错误
-vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.goToImplementation') end)
+vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.marker.nextInFiles') end)
 
 
 -- vscode 的 api 包括

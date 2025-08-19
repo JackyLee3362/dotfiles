@@ -40,7 +40,7 @@ noremap L $
 noremap R <C-r>
 
 " 复制
-noremap <leader>p "0p
+noremap sp "0p
 
 " 列选择模式
 " noremap sv <C-v>

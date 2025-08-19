@@ -31,9 +31,9 @@ nmap ga <action>(GotoImplementation)
 nmap gf <action>(SelectInProjectView)
 
 " 显示: 文件结构
-nmap <leader><leader>o <action>(FileStructurePopup)
-nmap <leader><leader>s <action>(ActivateStructureToolWindow)
-nmap <leader><leader>b <action>(ActivateBookmarksToolWindow)
+nmap <leader>o <action>(FileStructurePopup)
+nmap <leader>s <action>(ActivateStructureToolWindow)
+nmap <leader>b <action>(ActivateBookmarksToolWindow)
 
 " 显示: 参数信息
 nmap <leader>p <action>(ParameterInfo)

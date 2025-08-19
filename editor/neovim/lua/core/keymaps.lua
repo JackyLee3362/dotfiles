@@ -16,15 +16,15 @@ vim.keymap.set({"n", "v"}, "<leader>K", "K", opt)
 vim.keymap.set({"n", "v"}, "J", "<C-d>", opt)
 vim.keymap.set({"n", "v"}, "K", "<C-u>", opt)
 
--- 行内移动
+-- HL 平替
 vim.keymap.set({"n", "v"}, "<leader>H", "H", opt)
 vim.keymap.set({"n", "v"}, "<leader>L", "L", opt)
 
 vim.keymap.set({"n", "v"}, "H", "^", opt)
-vim.keymap.set({"n", "v"}, "L", "$", opt)
+vim.keymap.set({"n", "v"}, "L", "$", {silent = true, noremap = false})
 
 -- 复制
-vim.keymap.set({"n", "v"}, "yL", "y$", opt)
+-- vim.keymap.set({"n", "v"}, "yL", "y$", opt)
 
 -- 粘贴
 vim.keymap.set({"n", "v"}, "sp", "\"0p", opt)
