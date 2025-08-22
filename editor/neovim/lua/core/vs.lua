@@ -28,6 +28,11 @@ vim.keymap.set({"n"}, "ga", function() vscode.action('editor.action.goToImplemen
 -- 跳转到下一个错误
 vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.marker.nextInFiles') end)
 
+-- 优化键位
+vim.keymap.set({"n", "v"}, ">>", function() vscode.action('editor.action.indentLines') end)
+vim.keymap.set({"n", "v"}, "<<", function() vscode.action('editor.action.outdentLines') end)
+
+
 
 -- vscode 的 api 包括
 --
