@@ -1,129 +1,122 @@
 {
-    "description": "misc_keymaps",
-    "manipulators": [
-        {
-            "from": {
-                "key_code": "d",
-                "modifiers": {
-                    "mandatory": [
-                        "right_shift"
-                    ],
-                    "optional": [
-                        "any"
-                    ]
-                }
-            },
-            "to": [
-                {
-                    "key_code": "delete_or_backspace"
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "s",
-                "modifiers": {
-                    "mandatory": [
-                        "right_shift"
-                    ],
-                    "optional": [
-                        "any"
-                    ]
-                }
-            },
-            "to": [
-                {
-                    "key_code": "delete_forward"
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "tab",
-                "modifiers": {
-                    "mandatory": [
-                        "option"
-                    ],
-                    "optional": [
-                        "any"
-                    ]
-                }
-            },
-            "to": [
-                {
-                    "key_code": "tab",
-                    "modifiers": "command"
-                }
-            ],
-            "type": "basic"
-        },
-        {
-            "from": {
-                "key_code": "l",
-                "modifiers": {
-                    "mandatory": [
-                        "control"
-                    ],
-                    "optional": [
-                        "any"
-                    ]
-                }
-            },
-            "to": {
-                "key_code": "q",
-                "modifiers": [
-                    "command",
-                    "control"
-                ]
-            },
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": [
-                        "^com\\.apple\\.Safari",
-                        "^com\\.google\\.Chrome",
-                        "^com\\.vivaldi\\.Vivaldi"
-                    ]
-                }
-            ],
-            "from": {
-                "key_code": "f11"
-            },
-            "to": {
-                "key_code": "f",
-                "modifiers": [
-                    "command",
-                    "control"
-                ]
-            },
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": [
-                        "^com\\.apple\\.Safari",
-                        "^com\\.google\\.Chrome",
-                        "^com\\.vivaldi\\.Vivaldi"
-                    ]
-                }
-            ],
-            "type": "basic",
-            "from": {
-                "key_code": "f5"
-            },
-            "to": {
-                "key_code": "r",
-                "modifiers": [
-                    "command"
-                ]
-            }
+  "description": "misc_keymaps",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "d",
+        "modifiers": {
+          "mandatory": ["right_shift"],
+          "optional": ["any"]
         }
-    ]
+      },
+      "to": [
+        {
+          "key_code": "delete_or_backspace"
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "s",
+        "modifiers": {
+          "mandatory": ["right_shift"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "delete_forward"
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "tab",
+        "modifiers": {
+          "mandatory": ["option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "tab",
+          "modifiers": "command"
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "l",
+        "modifiers": {
+          "mandatory": ["control"],
+          "optional": ["any"]
+        }
+      },
+      "to": {
+        "key_code": "q",
+        "modifiers": ["command", "control"]
+      },
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "type": "frontmost_application_if",
+          "bundle_identifiers": ["^com\\.google\\.Chrome"]
+        }
+      ],
+      "from": {
+        "key_code": "h",
+        "modifiers": { "mandatory": ["command"], "optional": ["any"] }
+      },
+      "to": {
+        "key_code": "y",
+        "modifiers": ["command"]
+      },
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com\\.apple\\.Safari",
+            "^com\\.google\\.Chrome",
+            "^com\\.vivaldi\\.Vivaldi"
+          ]
+        }
+      ],
+      "from": {
+        "key_code": "f11"
+      },
+      "to": {
+        "key_code": "f",
+        "modifiers": ["command", "control"]
+      },
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com\\.apple\\.Safari",
+            "^com\\.google\\.Chrome",
+            "^com\\.vivaldi\\.Vivaldi"
+          ]
+        }
+      ],
+      "type": "basic",
+      "from": {
+        "key_code": "f5"
+      },
+      "to": {
+        "key_code": "r",
+        "modifiers": ["command"]
+      }
+    }
+  ]
 }
