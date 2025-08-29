@@ -1,6 +1,6 @@
 ---
 type: basic-note
-title: nvm 使用指南
+title: nvm
 author: JackyLee
 create_date: 2025-08-27
 update_date:
@@ -22,5 +22,21 @@ nvm install <version>
 # 默认版本
 nvm alias default <version>
 ```
+
+## 常用
+
+nvm list
+
+nvm list-remote
+
+nvm list available
+
+## 设置代理
+
+nvm proxy http://127.0.0.1:7890
+
+## 设置镜像
+
+nvm node_mirror https://npmmirror.com/mirrors/node/
 
 ## 参考资料

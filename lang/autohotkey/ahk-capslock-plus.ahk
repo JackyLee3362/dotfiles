@@ -48,6 +48,18 @@ CapsLock & u:: {
     SendInput("{Blind}{PgUp Up}")
 }
 
+CapsLock & d:: {
+    SendInput("{Blind}{Backspace Down}")
+    KeyWait("d")
+    SendInput("{Blind}{Backspace Up}")
+}
+
+CapsLock & s:: {
+    SendInput("{Blind}{Delete Down}")
+    KeyWait("s")
+    SendInput("{Blind}{Delete Up}")
+}
+
 CapsLock & Space:: {
     if (GetKeyState("CapsLock", "T")) {
         SetCapsLockState("AlwaysOff")
