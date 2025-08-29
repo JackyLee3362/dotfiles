@@ -1,7 +1,7 @@
 ---
 title: 1-basic-02-gitignore-文件
 author: JackyLee
-created_date: 2025-08-06
+create_date: 2025-08-06
 tags:
 description:
 ---

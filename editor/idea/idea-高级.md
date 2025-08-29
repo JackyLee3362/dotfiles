@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: idea-高级
-created_time: 2025-07-09
-modified_time:
+create_date: 2025-07-09
+update_date:
 tags:
 description:
 ---

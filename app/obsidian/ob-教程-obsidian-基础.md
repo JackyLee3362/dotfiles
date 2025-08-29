@@ -3,7 +3,7 @@ title: obsidian 基础
 tags:
   - obsidian/基础
   - 工具
-created_time: 2024-09-26
+create_date: 2024-09-26
 ---
 
 ## 介绍

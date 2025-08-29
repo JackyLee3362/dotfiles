@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: win-shell-powershel-cmd
-created_time: 2025-04-28
-modified_time: 
+create_date: 2025-04-28
+update_date: 
 tags:
 description:
 ---

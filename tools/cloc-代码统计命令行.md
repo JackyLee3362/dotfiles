@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: cloc-代码统计命令行
-created_time: 2025-06-17
-modified_time:
+create_date: 2025-06-17
+update_date:
 tags:
 description:
 ---

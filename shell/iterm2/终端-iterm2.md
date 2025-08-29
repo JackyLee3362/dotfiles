@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: 终端-iterm2
-created_time: 2025-07-10
-modified_time: 
+create_date: 2025-07-10
+update_date: 
 tags:
 description:
 ---

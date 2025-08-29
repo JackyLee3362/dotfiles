@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: pkm-新电脑配环境流程
-created_time: 2025-03-18
-modified_time:
+create_date: 2025-03-18
+update_date:
 tags:
 description:
 ---

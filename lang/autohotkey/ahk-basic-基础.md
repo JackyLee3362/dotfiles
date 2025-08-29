@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: ahk-基础
-created_time: 2025-02-26
-modified_time:
+create_date: 2025-02-26
+update_date:
   - 2025-04-10
 tags:
 description:

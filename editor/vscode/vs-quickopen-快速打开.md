@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: vs-quickopen-快速打开
-created_time: 2025-03-14
-modified_time: 
+create_date: 2025-03-14
+update_date: 
 tags:
 description:
 ---

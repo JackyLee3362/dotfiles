@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: idea-基础
-created_time: 2023-05-28
-modified_time:
+create_date: 2023-05-28
+update_date:
 tags:
 description:
 ---

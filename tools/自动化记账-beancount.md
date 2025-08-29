@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: beancount-自动化记账
-created_time: 2025-04-20
-modified_time:
+create_date: 2025-04-20
+update_date:
 tags:
 description:
 ---

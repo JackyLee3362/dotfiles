@@ -1,8 +1,8 @@
 ---
 type: basic-note
-title: redis-01-basic-01-基本命令
-created_time: 2025-07-15
-modified_time: 
+title: redis
+create_date: 2025-07-15
+update_date:
 tags:
 description:
 ---

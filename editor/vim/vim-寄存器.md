@@ -2,8 +2,8 @@
 type: basic-note
 title: vim-寄存器
 tags:
-created_time: 2024-12-20
-modified_time: 
+create_date: 2024-12-20
+update_date: 
  - 2025-03-22
 ---
 

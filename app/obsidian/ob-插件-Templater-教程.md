@@ -1,7 +1,7 @@
 ---
 tags:
   - obsidian/插件
-created_time: 2024-10-17
+create_date: 2024-10-17
 title: Obsidian Templater 教程
 ---
 

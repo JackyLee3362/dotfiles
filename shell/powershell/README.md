@@ -1,7 +1,7 @@
 ---
 title: powershell
 author: JackyLee
-created_date:
+create_date:
   - 2025-04-28
   - 2025-07-27
 tags:

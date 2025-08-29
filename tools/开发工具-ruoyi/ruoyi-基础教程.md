@@ -1,7 +1,7 @@
 ---
 tags:
   - ruoyi/教程
-created_time: 2024-10-07
+create_date: 2024-10-07
 ---
 
 ## 介绍

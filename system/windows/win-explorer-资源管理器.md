@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: win-explorer-资源管理器
-created_time: 2025-03-21
-modified_time:
+create_date: 2025-03-21
+update_date:
 tags:
 description:
 ---

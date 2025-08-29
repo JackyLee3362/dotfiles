@@ -1,7 +1,7 @@
 ---
 title: mac-系统权限问题
 author: JackyLee
-created_date: 2025-08-01
+create_date: 2025-08-01
 tags:
 description:
 ---

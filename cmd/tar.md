@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: 命令行工具-tar
-created_time: 2025-06-30
-modified_time: 
+create_date: 2025-06-30
+update_date: 
 tags:
 description:
 ---

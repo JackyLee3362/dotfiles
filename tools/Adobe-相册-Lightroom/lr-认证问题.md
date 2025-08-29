@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: lr-认证问题
-created_time: 2025-06-03
-modified_time:
+create_date: 2025-06-03
+update_date:
 tags:
 description:
 ---

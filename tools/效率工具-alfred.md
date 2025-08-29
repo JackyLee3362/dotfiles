@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: 效率工具-alfred
-created_time: 2025-07-09
-modified_time: 
+create_date: 2025-07-09
+update_date: 
 tags:
 description:
 ---

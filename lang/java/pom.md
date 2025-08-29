@@ -43,11 +43,29 @@ groovy，这是 1.x 版本的最新版本，更新于 2019-05-05
     <version>1.3-groovy-2.5</version>
     <scope>test</scope>
 </dependency>
+<!-- 集成 spring -->
+<dependency>
+    <groupId>org.spockframework</groupId>
+    <artifactId>spock-spring</artifactId>
+    <version>${spock.version}</version>
+    <scope>test</scope>
+</dependency>
 ```
 
 junit4
 
 junit5
+
+spring-test
+
+```xml
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>5.3.8</version>
+    <scope>test</scope>
+</dependency>
+```
 
 ## 日志
 
@@ -70,3 +88,5 @@ fastjson
 ```
 
 ## 参考资料
+
+- [01. 单元测试学习与项目介绍 - 学城](https://km.sankuai.com/page/327757205)

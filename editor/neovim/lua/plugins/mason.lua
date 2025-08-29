@@ -49,6 +49,10 @@ return {
 
         local function setup(name, config)
             local nvim_lsp = mason_lspconfig_mapping[name]
+            if not nvim_lsp then
+                print("Error: Server not found in mapping for " .. name)
+                return
+            end
             -- 主要是告诉 LSP 服务器支持什么特性，为了优化性能
             config.capabilities = require("blink.cmp").get_lsp_capabilities()
             config.on_attach = function (client)
@@ -73,10 +77,10 @@ return {
                 }
             },
             pyright = {},
-            ["html-lsp"] = {},
-            ["css-lsp"] = {},
-            ["typescript-language-server"] = {},
-            ["emmet-ls"] = {}
+            -- ["html-lsp"] = {},
+            -- ["css-lsp"] = {},
+            -- ["typescript-language-server"] = {},
+            -- ["emmet-ls"] = {}
         }
         for server, config in pairs(services) do
             setup(server, config)

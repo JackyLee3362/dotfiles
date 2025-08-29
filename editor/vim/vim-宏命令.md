@@ -1,7 +1,7 @@
 ---
 title: vim 宏命令
-created_time: 2025-02-26
-modified_time: 
+create_date: 2025-02-26
+update_date: 
 tags:
   - 工具
   - vim/宏命令

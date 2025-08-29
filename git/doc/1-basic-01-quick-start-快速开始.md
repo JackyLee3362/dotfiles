@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: basic-01-quick-start-快速开始
-created_time: 2025-06-25
-modified_time:
+create_date: 2025-06-25
+update_date:
 tags:
 description:
 ---

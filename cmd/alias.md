@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: linux-alias
-created_time: 2025-07-03
-modified_time: 
+create_date: 2025-07-03
+update_date: 
 tags:
 description:
 ---

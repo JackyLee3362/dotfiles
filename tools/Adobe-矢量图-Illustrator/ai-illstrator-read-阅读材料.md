@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: ai-read-阅读材料
-created_time: 2025-03-15
-modified_time:
+create_date: 2025-03-15
+update_date:
 tags:
 description:
 ---

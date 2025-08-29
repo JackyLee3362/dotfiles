@@ -2,8 +2,8 @@
 tags:
   - 工具
   - vim/教程
-created_time: 2024-02-20
-modified_time:
+create_date: 2024-02-20
+update_date:
   - 2024-10-16
 ---
 

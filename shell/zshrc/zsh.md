@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: zsh
-created_time: 2024-02-02
-modified_time:
+create_date: 2024-02-02
+update_date:
 tags:
 description:
 ---

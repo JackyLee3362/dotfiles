@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: git-稀疏
-created_time: 2025-03-29
-modified_time: 
+create_date: 2025-03-29
+update_date: 
 tags:
 description:
 ---

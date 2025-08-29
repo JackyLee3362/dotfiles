@@ -2,8 +2,8 @@
 title: Rime 使用教程
 tags:
   - rime/教程
-created_time: 2024-10-08
-modified_time:
+create_date: 2024-10-08
+update_date:
   - 2025-02-23
   - 2025-02-24
 ---

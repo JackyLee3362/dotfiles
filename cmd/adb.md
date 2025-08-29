@@ -1,7 +1,7 @@
 ---
 title: 命令行-adb
-created_time: 2024-03-25
-modified_time:
+create_date: 2024-03-25
+update_date:
 tags:
 description:
 ---

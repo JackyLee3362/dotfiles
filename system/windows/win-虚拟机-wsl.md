@@ -1,6 +1,6 @@
 ---
 title: wsl 基础教程
-created_time: 2025-02-25
+create_date: 2025-02-25
 tags:
   - wsl
   - 工具

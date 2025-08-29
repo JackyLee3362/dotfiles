@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: blender-阅读材料
-created_time: 2025-02-27
-modified_time: 
+create_date: 2025-02-27
+update_date: 
 tags:
 description:
 ---

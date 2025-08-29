@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: db-read
-created_time: 2025-03-13
-modified_time: 
+create_date: 2025-03-13
+update_date: 
 tags:
 description:
 ---

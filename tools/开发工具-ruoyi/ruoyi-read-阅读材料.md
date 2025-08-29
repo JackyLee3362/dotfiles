@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: ruoyi-阅读材料
-created_time: 2024-10-19
-modified_time: 
+create_date: 2024-10-19
+update_date: 
 tags:
 description:
 ---

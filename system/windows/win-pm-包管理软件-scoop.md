@@ -1,8 +1,8 @@
 ---
 type: basic-note
 title: win-pm-包管理软件-scoop
-created_time: 2025-05-14
-modified_time:
+create_date: 2025-05-14
+update_date:
 tags:
 description:
 ---

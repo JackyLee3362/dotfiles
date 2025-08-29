@@ -2,7 +2,7 @@
 title: Obsidian 插件 - Local Rest API
 tags:
   - obsidian/插件
-created_time: 2024-10-17
+create_date: 2024-10-17
 ---
 ## Intro 介绍
 
@@ -24,7 +24,7 @@ PUT /vault/project/{{filename page.title}}.md HTTP/1.1
 ---
 page-title: {{json page.title}}
 url: {{page.url}}
-created_time: "{{date}}"
+create_date: "{{date}}"
 tags:
 summary:
 status: todo
