@@ -5,6 +5,9 @@ set surround
 set easymotion
 set NERDTree
 
+" 设置复制时高亮
+set highlightedyank
+
 source ~/.vimrc
 
 " 文件内移动
