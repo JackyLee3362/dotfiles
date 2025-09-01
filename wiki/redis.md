@@ -4,6 +4,7 @@ title: redis
 create_date: 2025-07-15
 update_date:
 tags:
+  - 数据库
 description:
 ---
 
