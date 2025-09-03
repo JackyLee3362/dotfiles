@@ -12,6 +12,9 @@ Set-Alias -Name init-conda -Value $env:USERPROFILE\Documents\Powershell\conda.ps
 $env:TLDR_LANGUAGE="zh"
 $env:TLDR_CACHE_ENABLED=1
 
+# 设置 uv 环境变量
+$env:UV_SYSTEM_PYTHON=1
+
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
 If (Test-Path "C:\Users\JACKYLEE\scoop\apps\miniconda3\current\Scripts\conda.exe") {
