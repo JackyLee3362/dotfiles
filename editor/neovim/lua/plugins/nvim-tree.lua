@@ -1,3 +1,5 @@
+-- 激活 nvim tree 以后
+-- :h nvim-tree-opts 查看配置项
 return {
     "nvim-tree/nvim-tree.lua",
     dependencies = {"nvim-tree/nvim-web-devicons"},
@@ -12,7 +14,7 @@ return {
     keys = {
         -- { "<leader>uf",  ":NvimTreeToggle<CR>"},
         { "<leader><leader>e",  ":NvimTreeToggle<CR>"},
-        { "<C-E>",  ":NvimTreeToggle<CR>"}
+        { "<C-S-E>",  ":NvimTreeToggle<CR>"}
     },
     -- a 新建文件
     -- y 复制文件

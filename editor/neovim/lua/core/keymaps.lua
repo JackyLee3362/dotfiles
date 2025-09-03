@@ -35,5 +35,17 @@ vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)
 -- 测试按键
 vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", {silent = true})
 
--- 系统快捷键 ctrl
 vim.keymap.set({"n", "i", "v"}, "<leader>w", ":bdelete<CR>" , opt)
+
+-- Buffer 跳转 window 是显示 buffer 的，tag 是 window 的集合
+-- :buffers 查看所有 buffers
+-- :buffer 1 跳转到指定 buffer
+vim.keymap.set({"n", "v"}, "<leader>l", ":bnext<CR>")
+vim.keymap.set({"n", "v"}, "<leader>k", ":bprevious<CR>")
+
+-- 分屏操作
+vim.keymap.set({"n", "v"}, "sh", ":split<CR>", opt)
+vim.keymap.set({"n", "v"}, "sv", ":vsplit<CR>", opt)
+-- <C-w>hjkl 移动
+-- <C-w>c 关闭当前窗口
+-- <C-w>o 关闭所有其他窗口
