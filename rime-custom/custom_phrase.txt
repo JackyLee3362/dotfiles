@@ -23,83 +23,100 @@
 #
 # 此行之后不能写注释
 
-🎉	git 创建
-🎉	init 创建
 🎉	tada 创建
+🎉	git 创建
+🎉init: 	init
 
-🚧	git 工作
-🚧	work 工作
-🚧	construction 工作
+🚧	construction
+🚧	git 开发
+🚧dev: 	dev 开发
 
+✅	white_check_mark
 ✅	git 测试
-✅	test 测试
-✅	white_check_mark 测试
+✅test: 	test
 
+🎨	art
 🎨	git 格式化
-🎨	format 格式化
-🎨	art 格式化
+🎨style: 	style
 
 📚	git 文档
-📚	doc 文档
-📚	book 文档
+📚	book
+📚doc: 	doc
 
+📝	memo
 📝	git 注释
-📝	comment 注释
-📝	memo 注释
-📝	note 注释
+📝	comment
 
+🍱	bento
 🍱	git 资源
-🍱	res 资源
-🍱	bento 资源
+🍱	res
 
 🔧	git 配置
-🔧	conf 配置
+🔧conf: 	conf
 
 🙈	git ignore
-🙈	gitignore ignore
+🙈	gitignore
 
 ⚡️	git 性能
-⚡️	zap 性能
+⚡️	zap
 
+🔥	fire
 🔥	git 删除
-🔥	remove 删除
 
+🐛	bug
 🐛	git bug
-🐛	bug bug
+🐛fix: 	fix
 
+✨	sparkles
 ✨	git 特性
-✨	feat 特性
-✨	sparkles 特性
+✨feat: 	feat 特性
 
+♻️	recycle
 ♻️	git 重构
-♻️	recycle 重构
 
+🏗️	architectural
 🏗️	git 架构
-🏗️	architectural 架构
 
+🔖	bookmark
 🔖	git 发版
 🔖	version 发版
-🔖	bookmark 发版
 
+📦️	package
 📦️	git 备份
 📦️	bak 备份
-📦️	package 备份
+📦️bak: 	bak 备份
 
+💄️	lipstick
 💄️	git 美化
 💄️	ui 美化
-💄️	lipstick 美化
 
+🚚	truck
 🚚	git 移动
-🚚	move 移动
-🚚	truck 移动
+🚚move: 	move 移动
 
+💡	bulb
 💡	git 想法
 💡	idea 想法
-💡	bulb 想法
 
+🔨	hammer
 🔨	git 构建
-🔨	build 构建
-🔨	hammer 锤子
+🔨chore: 	chore
+
+✏️	pencil2
+✏️	git 勘误
+✏️typo: 	typo 勘误
+
+➕	git 新增依赖
+➕deps: 	deps
+
+➖	git 删除依赖
+➖deps: 	deps
+
+⬆️	git 升级依赖
+⬆️deps: 	deps
+
+⬇️	git 降级依赖
+⬇️deps: 	deps
 
 噷	hm
 呣	m
