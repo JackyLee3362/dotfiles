@@ -1,6 +1,19 @@
-# ps工具
+---
+type: basic-note
+title: 命令行ps
+author: JackyLee
+create_date: 2025-09-05
+update_date:
+tags:
+description:
+---
 
-linux平台
+## 如何查看命令启动时的参数
+
+```sh
+ps -p 进程号 -o args=
+# > ...
+```
 
 ## 常用参数
 
@@ -12,7 +25,7 @@ linux平台
 -l: 表示用长格式显示
 ```
 
-## 在PS查看的进程通常有以下几种状态
+## 在 PS 查看的进程通常有以下几种状态
 
 - D: 不能中断的休眠
 - R: 正在运行中
@@ -26,3 +39,5 @@ linux平台
 ```cmd
 ps -rl 这个命令的意思是查看正在运行的进程并以长格式显示
 ```
+
+## 参考资料

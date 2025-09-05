@@ -23,4 +23,4 @@ git submodule update --init --recursive
 
 ## 参考资料
 
-- [anishathalye/dotbot: A tool that bootstraps your dotfiles ⚡️](https://github.com/anishathalye/dotbot)
+- [dotbot: A tool that bootstraps your dotfiles ⚡️](https://github.com/anishathalye/dotbot)
