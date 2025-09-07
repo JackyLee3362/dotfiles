@@ -29,7 +29,7 @@
 
 🚧	construction
 🚧	git 开发
-🚧dev: 	dev 开发
+🚧wip: 	wip 开发
 
 ✅	white_check_mark
 ✅	git 测试
