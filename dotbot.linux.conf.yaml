@@ -7,18 +7,18 @@
 
 - link:
     # vim 配置
-    ~/.vimrc: editor/vim/.vimrc
+    ~/.vimrc: home/.vimrc
     # idea 配置
-    ~/.ideavimrc: editor/idea/.ideavimrc
+    ~/.ideavimrc: home/.ideavimrc
     # bashrc 配置
-    ~/.bash_profile: shell/bash/.bash_profile
+    ~/.bash_profile: shell/.bash_profile
     # zshrc 配置
     ~/.zshrc: shell/zshrc/.zshrc
     ~/.p10k.zsh: shell/zshrc/.p10k.zsh
     # linux / macos 专属
-    ~/.config/nvim: editor/neovim
+    ~/.config/nvim: vim
     # uv 配置
-    ~/.config/uv/uv.toml: lang/python/uv.toml
+    ~/.config/uv/uv.toml: home/uv.toml
     # Rime 配置
     ~/Library/Rime/default.custom.yaml: rime-custom/default.custom.yaml
     ~/Library/Rime/squirrel.custom.yaml: rime-custom/squirrel.custom.yaml
