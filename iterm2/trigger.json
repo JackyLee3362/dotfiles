@@ -1,0 +1,74 @@
+{
+  "Triggers": [
+    {
+      "action": "HighlightTrigger",
+      "disabled": false,
+      "parameter": "{p3#2b2bbabac5c5,}",
+      "regex": "(?<=\\s)(\\b(com|org)\\b[a-zA-Z\\.]+)(?=\\s)",
+      "partial": true
+    },
+    {
+      "disabled": false,
+      "action": "HighlightTrigger",
+      "parameter": "{p3#ababb2b2bfbf,}",
+      "regex": "\\b\\[?TRACE\\]?\\b",
+      "partial": true
+    },
+    {
+      "disabled": false,
+      "partial": true,
+      "parameter": "{p3#808080808080,}",
+      "regex": "\\b\\[?DEBUG\\]?\\b",
+      "action": "iTermHighlightLineTrigger"
+    },
+    {
+      "disabled": false,
+      "partial": true,
+      "parameter": "{p3#8989caca7979,}",
+      "regex": "\\b\\[?INFO\\]?\\b",
+      "action": "HighlightTrigger"
+    },
+    {
+      "disabled": false,
+      "partial": true,
+      "parameter": "{p3#e5e5c0c07b7b,}",
+      "regex": "\\b\\[?(WARNING|WARN)\\]?\\b",
+      "action": "HighlightTrigger"
+    },
+    {
+      "disabled": false,
+      "partial": true,
+      "parameter": "{p3#efef59596e6e,}",
+      "regex": "\\b\\[?ERROR\\]?\\b",
+      "action": "HighlightTrigger"
+    },
+    {
+      "disabled": false,
+      "action": "iTermHighlightLineTrigger",
+      "parameter": "{,p3#1e1e0a0a3636}",
+      "regex": "\\b\\[?(WARNING|WARN)\\]?\\b",
+      "partial": true
+    },
+    {
+      "disabled": false,
+      "action": "iTermHighlightLineTrigger",
+      "parameter": "{,p3#34340a0a0c0c}",
+      "regex": "\\b\\[?ERROR\\]?\\b",
+      "partial": true
+    },
+    {
+      "action": "HighlightTrigger",
+      "partial": true,
+      "parameter": "{p3#8989caca7979,}",
+      "regex": "^([\\s\\d\\.\\-:]+)",
+      "disabled": true
+    },
+    {
+      "action": "HighlightTrigger",
+      "disabled": false,
+      "parameter": "{p3#d4d45f5fdede,}",
+      "regex": "(?:\\s)(\\d+)(?=\\s)",
+      "partial": true
+    }
+  ]
+}
