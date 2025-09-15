@@ -16,9 +16,12 @@ vim.keymap.set({"n", "v"}, "<leader>K", "K", opt)
 vim.keymap.set({"n", "v"}, "J", "<C-d>", opt)
 vim.keymap.set({"n", "v"}, "K", "<C-u>", opt)
 
--- HL 平替
-vim.keymap.set({"n", "v"}, "<leader>H", "H", opt)
-vim.keymap.set({"n", "v"}, "<leader>L", "L", opt)
+-- HL 平替(super-h, super-l)
+-- vim.keymap.set({"n", "v"}, "sh", "H", opt)
+-- vim.keymap.set({"n", "v"}, "sl", "L", opt)
+-- JK 平替(super-j, super-k)
+vim.keymap.set({"n", "v"}, "sj", "<Cmd>join<CR>", opt)
+-- vim.keymap.set({"n", "v"}, "sk", "K", opt)
 
 vim.keymap.set({"n", "v"}, "H", "^", opt)
 vim.keymap.set({"n", "v"}, "L", "$", {silent = true, noremap = false})
@@ -26,7 +29,7 @@ vim.keymap.set({"n", "v"}, "L", "$", {silent = true, noremap = false})
 -- 复制
 -- vim.keymap.set({"n", "v"}, "yL", "y$", opt)
 
--- 粘贴
+-- 粘贴(super-p)
 vim.keymap.set({"n", "v"}, "sp", "\"0p", opt)
 
 -- 撤销
