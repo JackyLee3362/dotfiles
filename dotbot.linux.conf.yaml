@@ -13,8 +13,8 @@
     # bashrc 配置
     ~/.bash_profile: shell/.bash_profile
     # zshrc 配置
-    ~/.zshrc: shell/zshrc/.zshrc
-    ~/.p10k.zsh: shell/zshrc/.p10k.zsh
+    ~/.zshrc: shell/.zshrc
+    ~/.p10k.zsh: shell/.p10k.zsh
     # linux / macos 专属
     ~/.config/nvim: vim
     # uv 配置
