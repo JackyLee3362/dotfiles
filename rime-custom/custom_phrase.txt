@@ -49,7 +49,7 @@
 
 🍱	bento
 🍱	git 资源
-🍱	res
+🍱res: 	res 资源
 
 🔧	git 配置
 🔧conf: 	conf
@@ -73,9 +73,12 @@
 
 ♻️	recycle
 ♻️	git 重构
+♻️refactor: 	refactor 重构
 
 🏗️	architectural
 🏗️	git 架构
+🏗️arch:  arch 架构调整
+
 
 🔖	bookmark
 🔖	git 发版
@@ -83,7 +86,6 @@
 
 📦️	package
 📦️	git 备份
-📦️	bak 备份
 📦️bak: 	bak 备份
 
 💄️	lipstick
