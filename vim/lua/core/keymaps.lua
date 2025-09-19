@@ -24,7 +24,8 @@ vim.keymap.set({"n", "v"}, "sj", "<Cmd>join<CR>", opt)
 -- vim.keymap.set({"n", "v"}, "sk", "K", opt)
 
 vim.keymap.set({"n", "v"}, "H", "^", opt)
-vim.keymap.set({"n", "v"}, "L", "$", {silent = true, noremap = false})
+-- 取消使用 $
+vim.keymap.set({"n", "v"}, "L", "g_", {silent = true, noremap = false})
 
 -- 复制
 -- vim.keymap.set({"n", "v"}, "yL", "y$", opt)

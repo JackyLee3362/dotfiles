@@ -34,7 +34,8 @@ noremap K <C-u>
 
 " 行内移动
 noremap H ^
-noremap L $
+" noremap L $ 取消 $
+noremap L g_
 
 " 重做
 noremap R <C-r>
