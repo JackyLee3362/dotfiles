@@ -144,4 +144,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+
 source ~/.moaextrc

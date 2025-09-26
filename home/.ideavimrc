@@ -32,10 +32,18 @@ nmap ge <action>(GotoNextError)
 nmap ga <action>(GotoImplementation)
 " 跳转: 跳转文件在目录中的位置
 nmap gf <action>(SelectInProjectView)
+" 跳转: 跳转 super (接口)
+nmap gs <action>(GotoSuperMethod)
 
 " 显示: 文件结构
 nmap <leader>o <action>(FileStructurePopup)
+" 显示: 结构
 nmap <leader>s <action>(ActivateStructureToolWindow)
+" 显示: 类型层次结构
+nmap <leader>t <action>(TypeHierarchy)
+" 显示: 调用层次
+nmap <leader>c <action>(CallHierarchy)
+" 显示: 书签
 nmap <leader>b <action>(ActivateBookmarksToolWindow)
 
 " 显示: 参数信息
@@ -56,3 +64,6 @@ nmap <leader>j <action>(ExpandRegion)
 nmap <leader>k <action>(CollapseRegion)
 " 列选择模式
 " noremap sv <C-v>
+
+" 复制引用
+nmap sc <action>(CopyReference)
