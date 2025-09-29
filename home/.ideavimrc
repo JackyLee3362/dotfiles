@@ -65,5 +65,8 @@ nmap <leader>k <action>(CollapseRegion)
 " 列选择模式
 " noremap sv <C-v>
 
+nmap <PageUp> <action>(PreviousTab)
+nmap <PageDown> <action>(NextTab)
+
 " 复制引用
 nmap sc <action>(CopyReference)

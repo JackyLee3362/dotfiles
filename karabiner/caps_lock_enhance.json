@@ -175,7 +175,7 @@
                 }
             ],
             "from": {
-                "key_code": "u",
+                "key_code": "i",
                 "modifiers": {
                     "optional": [
                         "any"
@@ -198,7 +198,7 @@
                 }
             ],
             "from": {
-                "key_code": "i",
+                "key_code": "o",
                 "modifiers": {
                     "optional": [
                         "any"

@@ -38,13 +38,13 @@ CapsLock & n:: {
 
 CapsLock & i:: {
     SendInput("{Blind}{PgDn Down}")
-    KeyWait("i")
+    KeyWait("o")
     SendInput("{Blind}{PgDn Up}")
 }
 
 CapsLock & u:: {
     SendInput("{Blind}{PgUp Down}")
-    KeyWait("u")
+    KeyWait("i")
     SendInput("{Blind}{PgUp Up}")
 }
 

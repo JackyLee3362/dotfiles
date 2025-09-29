@@ -136,7 +136,11 @@ function y() {
 }
 
 # Java 环境变量
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home"
+export JAVA8="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home"
+export JAVA11="/Library/Java/JavaVirtualMachines/temurin-11.jdk.jdk/Contents/Home"
+export JAVA17="/Library/Java/JavaVirtualMachines/temurin-17.jdk.jdk/Contents/Home"
+export JAVA21="/Library/Java/JavaVirtualMachines/temurin-21.jdk.jdk/Contents/Home"
+export JAVA_HOME=$JAVA8
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
@@ -145,5 +149,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+
 
 source ~/.moaextrc
