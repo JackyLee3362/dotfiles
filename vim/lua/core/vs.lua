@@ -13,6 +13,10 @@ vim.keymap.set({"n"}, "<leader>j", function() vscode.action('editor.unfoldRecurs
 vim.keymap.set({"n"}, "<leader>k", function() vscode.action('editor.foldRecursively') end)
 -- 显示 symbol
 vim.keymap.set({"n"}, "<leader>o", function() vscode.action('workbench.action.gotoSymbol') end)
+-- 上一个编辑器
+vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.action.previousEditor') end)
+-- 下一个编辑器
+vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)
 
 -- g 命令
 -- 跳转 previous
@@ -31,6 +35,7 @@ vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.marker.nextI
 -- 优化键位
 vim.keymap.set({"n", "v"}, ">>", function() vscode.action('editor.action.indentLines') end)
 vim.keymap.set({"n", "v"}, "<<", function() vscode.action('editor.action.outdentLines') end)
+
 
 
 
