@@ -36,15 +36,15 @@ CapsLock & n:: {
     SendInput("{Blind}{Home Up}")
 }
 
-CapsLock & o:: {
+CapsLock & i:: {
     SendInput("{Blind}{PgDn Down}")
-    KeyWait("o")
+    KeyWait("i")
     SendInput("{Blind}{PgDn Up}")
 }
 
-CapsLock & i:: {
+CapsLock & u:: {
     SendInput("{Blind}{PgUp Down}")
-    KeyWait("i")
+    KeyWait("u")
     SendInput("{Blind}{PgUp Up}")
 }
 

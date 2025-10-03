@@ -18,6 +18,12 @@ vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.a
 -- 下一个编辑器
 vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)
 
+-- 测试: 运行 Java 测试
+vim.keymap.set({"n", "v"},"sr", function() vscode.action('java.test.runFromJavaProjectExplorer') end)
+-- 测试: 调试 Java 测试
+vim.keymap.set({"n", "v"},"sd", function() vscode.action('java.test.debugFromJavaProjectExplorer') end)
+
+
 -- g 命令
 -- 跳转 previous
 vim.keymap.set({"n"}, "gh", function() vscode.action('workbench.action.navigateBack') end)
