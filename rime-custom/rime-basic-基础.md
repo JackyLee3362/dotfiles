@@ -141,3 +141,4 @@ date_translator:
 - [Rime 输入法多平台新手设置参考 - 知乎](https://zhuanlan.zhihu.com/p/695780532)
 - [如何从头开始编一个拼音输入法？ - 知乎](https://www.zhihu.com/question/20720365/answer/16428172)
 - [Rime 安装说明 - SivanLaai's Blog](https://blog.laais.cn/posts/projects/rime/installation/)
+- [windows | rime 输入法 & 雾凇方案 | lvbibir's Blog](https://www.lvbibir.cn/posts/tech/windowns-rime-input-method/)

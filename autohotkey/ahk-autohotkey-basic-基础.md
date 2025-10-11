@@ -64,3 +64,4 @@ WinActivate [ WinTitle, WinText, ExcludeTitle, ExcludeText ]
 - [程序的使用 | AutoHotkey v2](https://wyagd001.github.io/v2/docs/Program.htm#run)
 - [热键之组合键与序列键 - AutoHotkey Community](https://www.autohotkey.com/boards/viewtopic.php?t=4287)
 - [AutoHotkey 学习指南 - AutoHotkey Community](https://www.autohotkey.com/boards/viewtopic.php?t=1099)
+- [GitHub - matrix1001/Capslock2: Utilizing Capslock by Autohotkey v2](https://github.com/matrix1001/Capslock2)
