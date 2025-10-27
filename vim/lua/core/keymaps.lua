@@ -31,7 +31,7 @@ vim.keymap.set({"n", "v"}, "L", "g_", {silent = true, noremap = false})
 -- vim.keymap.set({"n", "v"}, "yL", "y$", opt)
 
 -- 粘贴(super-p)
-vim.keymap.set({"n", "v"}, "sp", "\"0p", opt)
+vim.keymap.set({"n", "v"}, "sp", '"0p', opt)
 
 -- 撤销
 vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)

@@ -12,9 +12,9 @@ source ~/.vimrc
 
 " 文件内移动
 " 移动: 下一个方法
-nmap gj <action>(MethodDown)
+nmap gn <action>(MethodDown)
 " 移动: 上一个方法
-nmap gk <action>(MethodUp)
+nmap gm <action>(MethodUp)
 " 跳转: 返回
 nmap gh <action>(Back)
 " 跳转: 前进
