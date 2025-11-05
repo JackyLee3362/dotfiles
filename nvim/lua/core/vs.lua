@@ -1,5 +1,6 @@
 local vscode = require("vscode")
 
+
 -- leader 命令
 -- 显示悬停
 vim.keymap.set({"n"}, "<leader>i", function() vscode.action('editor.action.showHover') end)
@@ -13,16 +14,12 @@ vim.keymap.set({"n"}, "<leader>j", function() vscode.action('editor.unfoldRecurs
 vim.keymap.set({"n"}, "<leader>k", function() vscode.action('editor.foldRecursively') end)
 -- 显示 symbol
 vim.keymap.set({"n"}, "<leader>o", function() vscode.action('workbench.action.gotoSymbol') end)
--- 上一个编辑器
-vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.action.previousEditor') end)
--- 下一个编辑器
-vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)
 
+-- s 命令
 -- 测试: 运行 Java 测试
 vim.keymap.set({"n", "v"},"sr", function() vscode.action('java.test.runFromJavaProjectExplorer') end)
 -- 测试: 调试 Java 测试
 vim.keymap.set({"n", "v"},"sd", function() vscode.action('java.test.debugFromJavaProjectExplorer') end)
-
 
 -- g 命令
 -- 跳转 previous
@@ -43,11 +40,14 @@ vim.keymap.set({"n", "v"}, ">>", function() vscode.action('editor.action.indentL
 vim.keymap.set({"n", "v"}, "<<", function() vscode.action('editor.action.outdentLines') end)
 
 
-
-
 -- vscode 的 api 包括
 --
 -- 1. 展示消息: vscode.notify("hello, neovim-vscode")
 -- 2. 执行命令: vscode.action(命令id) # 可以从快捷键中复制命令id
 -- 3. 获取配置: vscode.get_config("editor.fontSize")
 -- 4. 设置配置: vscode.update_config("vim.insertModeKeyBindings", bindings, 'global')
+
+-- 上一个编辑器
+vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.action.previousEditor') end)
+-- 下一个编辑器
+vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)

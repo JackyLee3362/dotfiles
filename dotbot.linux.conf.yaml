@@ -16,7 +16,7 @@
     ~/.zshrc: shell/.zshrc
     ~/.p10k.zsh: shell/.p10k.zsh
     # linux / macos 专属
-    ~/.config/nvim: vim
+    ~/.config/nvim: nvim
     # uv 配置
     ~/.config/uv/uv.toml: home/uv.toml
     # Rime 配置

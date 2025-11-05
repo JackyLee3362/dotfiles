@@ -13,7 +13,7 @@
     # idea 配置
     ~/.ideavimrc: home/.ideavimrc
     # neovim 配置
-    ${LOCALAPPDATA}/nvim: vim
+    ${LOCALAPPDATA}/nvim: nvim
     # maven 配置
     ~/.m2/settings.xml: home/mvn-settings.xml
     # powershell 5 配置
