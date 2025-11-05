@@ -3,7 +3,7 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     # vim 配置
@@ -20,17 +20,17 @@
     # uv 配置
     ~/.config/uv/uv.toml: home/uv.toml
     # Rime 配置
-    ~/Library/Rime/default.custom.yaml: rime-custom/default.custom.yaml
-    ~/Library/Rime/squirrel.custom.yaml: rime-custom/squirrel.custom.yaml
+    ~/Library/Rime/default.custom.yaml:
+      path: rime-custom/default.custom.yaml
+    ~/Library/Rime/squirrel.custom.yaml:
+      path: rime-custom/squirrel.custom.yaml
     ~/Library/Rime/custom_phrase.txt: rime-custom/custom_phrase.txt
     ~/Library/Rime:
-        glob: true
-        path: rime-ice/*
-        exclude:
-            - .git*
-            - "**/custom_phrase.txt"
-            - .*custom.yaml
-
-
+      glob: true
+      path: rime-ice/*
+      exclude:
+        - .git*
+        - "**/custom_phrase.txt"
+        - .*custom.yaml
 # - shell:
 #   - [git submodule update --init --recursive, Installing submodules]
