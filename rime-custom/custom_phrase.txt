@@ -62,7 +62,7 @@
 
 🔥	fire
 🔥	git 删除
-🔥del: 	git 删除
+🔥del: 	del 删除
 
 🐛	bug
 🐛	git bug

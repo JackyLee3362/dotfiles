@@ -151,6 +151,9 @@ export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
 # 配置 brew 非自动升级
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+# 配置 flutter 国内源
+export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 
 
 source ~/.moaextrc
