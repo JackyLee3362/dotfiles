@@ -155,5 +155,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
 export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 
+# 配置 Python 环境变量
+export PYTHONPATH=src
+
+
 
 source ~/.moaextrc
