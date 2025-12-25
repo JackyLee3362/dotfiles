@@ -77,7 +77,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aliases zsh-autosuggestions zsh-syntax-highlighting autojump zsh-vi-mode)
+plugins=(git web-search z aliases zsh-vi-mode zsh-autosuggestions zsh-syntax-highlighting autojump)
+# 配置 zsh-auto-suggest 策略: 支持历史和子命令补全
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -125,6 +127,7 @@ alias nv="nvim"
 alias vi="nvim"
 alias vim="nvim"
 alias init-bash="source ~/.bash_profile"
+alias km="web_search km"
 
 # yazi 配置 from 官网
 function y() {
@@ -157,6 +160,11 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 
 # 配置 Python 环境变量
 export PYTHONPATH=src
+
+# 对于部分需要单独配置的环境变量，在 secret 中设置
+source ~/.secret.zshrc
+# export MYSQL_USER=
+# export MYSQL_PASSWORD=
 
 
 

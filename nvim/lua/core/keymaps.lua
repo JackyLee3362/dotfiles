@@ -39,7 +39,7 @@ vim.keymap.set({"n", "v", "i"}, "<C-z>", "<Cmd>undo<CR>", opt)
 -- 测试按键
 vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", {silent = true})
 
-vim.keymap.set({"n", "i", "v"}, "<leader>w", ":bdelete<CR>" , opt)
+vim.keymap.set({"n", "v"}, "<leader>w", ":bdelete<CR>" , opt)
 
 -- Buffer 跳转 window 是显示 buffer 的，tag 是 window 的集合
 -- :buffers 查看所有 buffers
