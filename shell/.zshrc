@@ -163,8 +163,10 @@ export PYTHONPATH=src
 
 # 对于部分需要单独配置的环境变量，在 secret 中设置
 source ~/.secret.zshrc
-# export MYSQL_USER=
-# export MYSQL_PASSWORD=
+# export MYSQL_USERNAME=foo
+# export MYSQL_PASSWORD=bar
+
+
 
 
 

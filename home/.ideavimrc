@@ -10,6 +10,7 @@ set highlightedyank
 
 source ~/.vimrc
 
+" ============= g 命令强调移动
 " 文件内移动
 " 移动: 下一个方法
 nmap gn <action>(MethodDown)
@@ -35,27 +36,21 @@ nmap gf <action>(SelectInProjectView)
 " 跳转: 跳转 super (接口)
 nmap gs <action>(GotoSuperMethod)
 
+" ============= leader 命令强调显示
 " 显示: 文件结构
 nmap <leader>o <action>(FileStructurePopup)
 " 显示: 结构
 nmap <leader>s <action>(ActivateStructureToolWindow)
-" 显示: 类型层次结构
+" 显示: 书签
+nmap <leader>b <action>(ActivateBookmarksToolWindow)
+" 显示: 类型继承层次结构
 nmap <leader>t <action>(TypeHierarchy)
 " 显示: 调用层次
 nmap <leader>c <action>(CallHierarchy)
-" 显示: 书签
-nmap <leader>b <action>(ActivateBookmarksToolWindow)
-
-" 显示: 参数信息
-nmap <leader>p <action>(ParameterInfo)
-" 显示: 文档/描述
-nmap <leader>d <action>(QuickJavaDoc)
-" 显示: 显示快速实现
-nmap <leader>i <action>(QuickImplementations)
 " 显示: 代码补全 > 基本 / vscode: 触发建议 / command/ctrl + i
 " nmap <leader>i <action>(CodeCompletion)
 " 显示: 代码 > 生成
-nmap <leader>g <action>(Generate)
+nmap <leader>g <action>(Vcs.ShowTabbedFileHistory)
 " 显示: 其他 > 显示上下文操作
 nmap <leader>e <action>(ShowIntentionActions)
 " 显示: 折叠 > 折叠代码块
@@ -64,9 +59,19 @@ nmap <leader>j <action>(ExpandRegion)
 nmap <leader>k <action>(CollapseRegion)
 " 列选择模式
 " noremap sv <C-v>
+" 显示: 参数信息
+nmap <leader>p <action>(ParameterInfo)
+" 显示: 文档/描述
+nmap <leader>d <action>(QuickJavaDoc)
+" 显示: 显示快速实现
+nmap <leader>i <action>(QuickImplementations)
 
 nmap <PageUp> <action>(PreviousTab)
 nmap <PageDown> <action>(NextTab)
 
+" ===================== s 命令强调动作
 " 复制引用
 nmap sc <action>(CopyReference)
+nnoremap sj mzJ\z`
+
+" ===================== t 命令候补

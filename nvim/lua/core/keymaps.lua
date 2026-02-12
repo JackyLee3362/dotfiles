@@ -53,3 +53,7 @@ vim.keymap.set({"n", "v"}, "sv", ":vsplit<CR>", opt)
 -- <C-w>hjkl 移动
 -- <C-w>c 关闭当前窗口
 -- <C-w>o 关闭所有其他窗口
+
+-- ========== s 命令 ==========
+-- nnoremap sj mzJ\z`
+vim.keymap.set({"n", "v"}, "sj", "mzJ`z", opt)
