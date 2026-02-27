@@ -8,6 +8,9 @@ set NERDTree
 " 设置复制时高亮
 set highlightedyank
 
+" 设置共享剪贴板
+set clipboard+=ideaput
+
 source ~/.vimrc
 
 " ============= g 命令强调移动
