@@ -425,6 +425,28 @@
         }
       ],
       "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "name": "caps_arrow_mode",
+          "type": "variable_if",
+          "value": 1
+        }
+      ],
+      "from": {
+        "key_code": "a",
+        "modifiers": {
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "a",
+          "modifiers": ["command", "left_shift"]
+        }
+      ],
+      "type": "basic"
     }
   ]
 }

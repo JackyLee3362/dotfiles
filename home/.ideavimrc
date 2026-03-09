@@ -1,17 +1,40 @@
+source ~/.vimrc
+
 " idea 插件设置 surround
-set surround
+" set surround
+
+set which-key
 
 " idea 插件设置 easymotion
+" prefix f <char> 查找字符
+" prefix j 向上行
+" prefix k 向下行
+" prefix w 单词查找
 set easymotion
+map <leader> <Plug>(easymotion-prefix)
+
 set NERDTree
+
+" https://github.com/magidc/ideavim-anyobject/blob/release/README.md
+" vi(a) 选中参数
+" vi(f) 选中函数 or lambda
+" vi(c) 选中类
+" vi(m) 选中匿名
+" vi(v) 选中变量
+" vi(l) 选中循环
+" vi(i) 选中集合(collection)
+" vi(x)
+" vi(g) 字符类型
+" vi(o) 选中括号
+" vi(d) 选中文档
+" vi(k) 选中注释
+set anyobject
 
 " 设置复制时高亮
 set highlightedyank
 
 " 设置共享剪贴板
 set clipboard+=ideaput
-
-source ~/.vimrc
 
 " ============= g 命令强调移动
 " 文件内移动
