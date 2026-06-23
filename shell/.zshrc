@@ -172,4 +172,55 @@ source ~/.secret.zshrc
 
 
 
+
+# bun completions
+[ -s "/Users/jackylee/.bun/_bun" ] && source "/Users/jackylee/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# Added by Catpaw
+
+# ===== Claude Code 企业代理（mcli.sankuai.com）=====
+export ANTHROPIC_BASE_URL="https://mcli.sankuai.com"
+export CLAUDECODE=1
+
+# 从 mcopilot-cli 配置文件动态读取 token
+_read_mc_token() {
+  local cfg="$HOME/.config/mcopilot-cli/.config.yaml"
+  if [[ -f "$cfg" ]]; then
+    local token
+    token="$(grep -E '^AUTHORIZATION:[[:space:]]+[^[:space:]]' "$cfg" 2>/dev/null | head -1 | sed 's/^AUTHORIZATION:[[:space:]]*//')"
+    [[ -n "$token" ]] && export ANTHROPIC_AUTH_TOKEN="$token"
+  fi
+}
+_read_mc_token
+
+# 动态更新 X-Working-Dir，确保每个目录下的请求携带正确路径
+_update_claude_proxy_headers() {
+  export ANTHROPIC_CUSTOM_HEADERS="X-Working-Dir: $(python3 -c "import urllib.parse; print(urllib.parse.quote('$PWD', safe=''))" 2>/dev/null || echo "$PWD")"
+}
+autoload -Uz add-zsh-hook
+add-zsh-hook preexec _update_claude_proxy_headers
+_update_claude_proxy_headers
+
+
+
+
+
+# Added by catdesk
+export PATH="$HOME/.catdesk/bin:$PATH"
+
+# Added by CatPaw
+export PATH="/Users/jackylee/.catpaw/bin:$PATH"
+
+
+
+
+
+
+
+
 source ~/.moaextrc

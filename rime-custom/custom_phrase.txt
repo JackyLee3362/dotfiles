@@ -96,6 +96,7 @@
 🚚	truck
 🚚	git 重命名
 🚚rename: 	rename 重命名
+🚚move: 	move 移动
 
 💡	bulb
 💡	git 想法
@@ -120,8 +121,6 @@
 
 ⬇️	git 降级依赖
 ⬇️deps: 	deps
-
-🐙 	octo
 
 噷	hm
 呣	m
