@@ -206,21 +206,13 @@ autoload -Uz add-zsh-hook
 add-zsh-hook preexec _update_claude_proxy_headers
 _update_claude_proxy_headers
 
-
-
-
-
 # Added by catdesk
 export PATH="$HOME/.catdesk/bin:$PATH"
 
 # Added by CatPaw
 export PATH="/Users/jackylee/.catpaw/bin:$PATH"
 
-
-
-
-
-
-
+# 增加 rust-cargo 依赖
+. "$HOME/.cargo/env"
 
 source ~/.moaextrc

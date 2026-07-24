@@ -10,8 +10,8 @@ set which-key
 " prefix j 向上行
 " prefix k 向下行
 " prefix w 单词查找
-set easymotion
-map <leader> <Plug>(easymotion-prefix)
+" set easymotion
+" map <leader> <Plug>(easymotion-prefix)
 
 set NERDTree
 
@@ -28,7 +28,7 @@ set NERDTree
 " vi(o) 选中括号
 " vi(d) 选中文档
 " vi(k) 选中注释
-set anyobject
+" set anyobject
 
 " 设置复制时高亮
 set highlightedyank
@@ -78,7 +78,7 @@ nmap <leader>c <action>(CallHierarchy)
 " 显示: 代码 > 生成
 nmap <leader>g <action>(Vcs.ShowTabbedFileHistory)
 " 显示: 其他 > 显示上下文操作
-nmap <leader>e <action>(ShowIntentionActions)
+map <leader>e <action>(ShowIntentionActions)
 " 显示: 折叠 > 折叠代码块
 nmap <leader>j <action>(ExpandRegion)
 " 显示: 折叠 > 折叠代码块
