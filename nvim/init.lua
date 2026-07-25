@@ -1,4 +1,3 @@
-vim.g.loaded_all_plugins = false
 require("core.basic")
 require("core.keymaps")
 -- require("core.autocmd")

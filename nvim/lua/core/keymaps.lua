@@ -27,7 +27,7 @@ vim.keymap.set({"n", "v"}, "K", "<C-u>", opt)
 vim.keymap.set({"n", "v"}, "sj", "mzJ`z", opt)
 -- vim.keymap.set({"n", "v"}, "sk", "K", opt)
 -- 复制
-vim.keymap.set({"n", "v"}, "yL", "yg_", opt)
+-- vim.keymap.set({"n", "v"}, "yL", "yg_", opt)
 -- 粘贴(super-p)
 vim.keymap.set({"n", "v"}, "sp", '"0p', opt)
 
@@ -50,4 +50,4 @@ vim.keymap.set({"n", "v"}, "<PageDown>", ":bnext<CR>")
 
 ------------------------ 测试按键 ------------------------
 -- vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", {silent = true})
-vim.keymap.set({"n", "v"}, "<C-w>", ":bdelete<CR>" , opt)
+-- vim.keymap.set({"n", "v"}, "<C-w>", ":bdelete<CR>" , opt)

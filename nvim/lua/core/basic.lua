@@ -85,7 +85,8 @@ vim.opt.termguicolors = true
 vim.opt.list = false
 vim.opt.listchars = "space:·,tab:>-"
 
-vim.opt.wildmenu = true
+vim.opt.wildmenu = false
+vim.opt.wildmode = "longest"
 vim.opt.shortmess = vim.o.shortmess .. "c"
 -- 补全显示10行
 vim.opt.pumheight = 13
@@ -93,4 +94,3 @@ vim.opt.clipboard = "unnamedplus"
 
 -- 不需要显示状态信息
 vim.opt.showmode = false
-

@@ -24,24 +24,24 @@ return {
         ,
         -- 命令行补全
         cmdline = {
-            sources = function ()
-                local cmd_type = vim.fn.getcmdtype()
-                if cmd_type == "/" then
-                    return { "buffer"}
-                elseif cmd_type == ":" then
-                    return { "cmdline"}
-                else
-                    return {}
-                end
-            end,
-            keymap = {
-                preset = "super-tab"
-            }
-            ,completion = {
-                menu = {
-                    auto_show = true
-                }
-            }
+            -- sources = function ()
+            --     local cmd_type = vim.fn.getcmdtype()
+            --     if cmd_type == "/" then
+            --         return { "buffer"}
+            --     elseif cmd_type == ":" then
+            --         return { "cmdline"}
+            --     else
+            --         return {}
+            --     end
+            -- end,
+            -- keymap = {
+            --     preset = "super-tab"
+            -- }
+            -- ,completion = {
+            --     menu = {
+            --         auto_show = true
+            --     }
+            -- }
         }
     },
 }
