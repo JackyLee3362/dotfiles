@@ -1,5 +1,9 @@
 # Jacky's Config
 
+## 配置文件命名
+
+dotbot.conf.{环境}.{设备/操作系统}.conf.yaml
+
 ```sh
 # 安装
 pipx install dotbot==1.23.0

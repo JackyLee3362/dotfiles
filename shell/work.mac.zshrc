@@ -72,12 +72,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search z aliases zsh-vi-mode zsh-autosuggestions zsh-syntax-highlighting autojump)
+# 260724 删除 git 和 web-search, autojump(和z功能类似)
+plugins=(z aliases zsh-vi-mode zsh-autosuggestions zsh-syntax-highlighting )
 # 配置 zsh-auto-suggest 策略: 支持历史和子命令补全
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
@@ -116,7 +112,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # alias
-alias idea="/Users/jackylee/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/MacOS/idea"
 export TLDR_LANGUAGE="zh"
 export TLDR_CACHE_ENABLED=1
 
@@ -127,7 +122,6 @@ alias nv="nvim"
 alias vi="nvim"
 alias vim="nvim"
 alias init-bash="source ~/.bash_profile"
-alias km="web_search km"
 
 # yazi 配置 from 官网
 function y() {
