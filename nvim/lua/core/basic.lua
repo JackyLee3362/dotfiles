@@ -6,7 +6,7 @@
 vim.g.encoding = "UTF-8"
 vim.opt.fileencoding = "UTF-8"
 
--- jkhl 移动时光标周围保留8行
+-- hjkl 移动时光标周围保留8行
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 

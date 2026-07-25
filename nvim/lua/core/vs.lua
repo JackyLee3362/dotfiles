@@ -1,11 +1,20 @@
+-- vscode 的 api 包括
+--
+-- 1. 展示消息: vscode.notify("hello, neovim-vscode")
+-- 2. 执行命令: vscode.action(命令id) # 可以从快捷键中复制命令id
+-- 3. 获取配置: vscode.get_config("editor.fontSize")
+-- 4. 设置配置: vscode.update_config("vim.insertModeKeyBindings", bindings, 'global')
 local vscode = require("vscode")
 
+-- 必须关闭
+-- vim.g.clipboard = vim.g.vscode_clipboard
+-- vim.opt.clipboard = "" -- 关键！关闭 unnamed/unnamedplus
 
 -- leader 命令
 -- 显示悬停
-vim.keymap.set({"n"}, "<leader>i", function() vscode.action('editor.action.showHover') end)
+-- vim.keymap.set({"n"}, "<leader>i", function() vscode.action('editor.action.showHover') end)
 -- 显示参数
-vim.keymap.set({"n"}, "<leader>p", function() vscode.action('editor.action.triggerParameterHints') end)
+-- vim.keymap.set({"n"}, "<leader>p", function() vscode.action('editor.action.triggerParameterHints') end)
 -- 弹出快速修复
 vim.keymap.set({"n"}, "<leader>e", function() vscode.action('editor.action.quickFix') end)
 -- 收起
@@ -13,13 +22,7 @@ vim.keymap.set({"n"}, "<leader>j", function() vscode.action('editor.unfoldRecurs
 -- 展开
 vim.keymap.set({"n"}, "<leader>k", function() vscode.action('editor.foldRecursively') end)
 -- 显示 symbol
-vim.keymap.set({"n"}, "<leader>o", function() vscode.action('workbench.action.gotoSymbol') end)
-
--- s 命令
--- 测试: 运行 Java 测试
-vim.keymap.set({"n", "v"},"sr", function() vscode.action('java.test.runFromJavaProjectExplorer') end)
--- 测试: 调试 Java 测试
-vim.keymap.set({"n", "v"},"sd", function() vscode.action('java.test.debugFromJavaProjectExplorer') end)
+-- vim.keymap.set({"n"}, "<leader>o", function() vscode.action('workbench.action.gotoSymbol') end)
 
 -- g 命令
 -- 跳转 previous
@@ -34,18 +37,6 @@ vim.keymap.set({"n"}, "gu", function() vscode.action('editor.action.goToReferenc
 vim.keymap.set({"n"}, "ga", function() vscode.action('editor.action.goToImplementation') end)
 -- 跳转到下一个错误
 vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.marker.nextInFiles') end)
-
--- 优化键位
-vim.keymap.set({"n", "v"}, ">>", function() vscode.action('editor.action.indentLines') end)
-vim.keymap.set({"n", "v"}, "<<", function() vscode.action('editor.action.outdentLines') end)
-
-
--- vscode 的 api 包括
---
--- 1. 展示消息: vscode.notify("hello, neovim-vscode")
--- 2. 执行命令: vscode.action(命令id) # 可以从快捷键中复制命令id
--- 3. 获取配置: vscode.get_config("editor.fontSize")
--- 4. 设置配置: vscode.update_config("vim.insertModeKeyBindings", bindings, 'global')
 
 -- 上一个编辑器
 vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.action.previousEditor') end)

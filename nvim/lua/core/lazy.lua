@@ -13,7 +13,6 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-
 if vim.g.vscode then
     -- VSCode extension
     require("lazy").setup({
