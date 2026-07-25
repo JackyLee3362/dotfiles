@@ -1,86 +1,32 @@
 #Requires AutoHotkey v2.0
+#SingleInstance Force
 
-CapsLock & h:: {
-    Send("{Blind}{Left Down}")
-    Send("{Blind}{Left Up}")
+global g_CapsMod := false
+; ========== 核心：劫持CapsLock，屏蔽原生按键事件 ==========
+$*CapsLock:: {
+    global g_CapsMod
+    g_CapsMod := true
+    KeyWait("CapsLock",5)
+    g_CapsMod := false
 }
 
-CapsLock & j:: {
-    Send("{Blind}{Down Down}")
-    Send("{Blind}{Down Up}")
-}
+#HotIf g_CapsMod
+; 普通映射
+$h:: Send("{Blind}{Left}")
+$j:: Send("{Blind}{Down}")
+$k:: Send("{Blind}{Up}")
+$l:: Send("{Blind}{Right}")
+$m:: Send("{Blind}{End}")
+$n:: Send("{Blind}{Home}")
+$i:: Send("{Blind}{PgDn}")
+$u:: Send("{Blind}{PgUp}")
+$d:: Send("{Blind}{Backspace}")
+$s:: Send("{Blind}{Delete}")
 
-CapsLock & k:: {
-    Send("{Blind}{Up Down}")
-    Send("{Blind}{Up Up}")
-}
+; 修饰映射
+$e:: Send("{Blind}^+e")
+$g:: Send("{Blind}^+g")
 
-CapsLock & l:: {
-    Send("{Blind}{Right Down}")
-    Send("{Blind}{Right Up}")
-}
-
-CapsLock & m:: {
-    SendInput("{Blind}{End Down}")
-    SendInput("{Blind}{End Up}")
-}
-
-CapsLock & n:: {
-    SendInput("{Blind}{Home Down}")
-    SendInput("{Blind}{Home Up}")
-}
-
-CapsLock & i:: {
-    SendInput("{Blind}{PgDn Down}")
-    SendInput("{Blind}{PgDn Up}")
-}
-
-CapsLock & u:: {
-    SendInput("{Blind}{PgUp Down}")
-    SendInput("{Blind}{PgUp Up}")
-}
-
-CapsLock & d:: {
-    SendInput("{Blind}{Backspace Down}")
-    SendInput("{Blind}{Backspace Up}")
-}
-
-CapsLock & s:: {
-    SendInput("{Blind}{Delete Down}")
-    SendInput("{Blind}{Delete Up}")
-}
-
-CapsLock & e:: {
-    ; Blind：忽略修饰键的物理状态，保证发送的修饰键生效
-    ; 先按下 Ctrl 和 Shift
-    SendInput("{Blind}{Ctrl Down}{Shift Down}")
-    ; 发送 e 键的按下+松开
-    SendInput("{Blind}e")
-    ; 等待 e 键松开（避免重复触发）
-    KeyWait("e")
-    ; 松开 Ctrl 和 Shift
-    SendInput("{Blind}{Ctrl Up}{Shift Up}")
-}
-
-CapsLock & g:: {
-    SendInput("{Blind}{Ctrl Down}{Shift Down}")
-    SendInput("{Blind}g")
-    KeyWait("g")
-    SendInput("{Blind}{Ctrl Up}{Shift Up}")
-}
-
-CapsLock & Space:: {
-    if (GetKeyState("CapsLock", "T")) {
-        SetCapsLockState("AlwaysOff")
-    } else {
-        SetCapsLockState("AlwaysOn")
-    }
-}
-
-; 等待 e 键松开（避免重复触发）
-; KeyWait("e")
-
-; CapsLock:: Send("{ESC}")
-; CapsLock:: Send("{VKC0}") ; mapped to `
-; CapsLock & c:: Run("calc.exe")
-; CapsLock & n:: Run("notepad.exe")
+; CapsLock + 空格 切换大小写
+$Space:: SetCapsLockState(!GetKeyState("CapsLock", "T"))
+#HotIf
