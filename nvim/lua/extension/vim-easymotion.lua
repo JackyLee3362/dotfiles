@@ -1,9 +1,0 @@
-return {
-    "asvetliakov/vim-easymotion",
-    enable = false,
-    name = "vsc-easymotion",
-    -- config = function()
-    --   vim.g.EasyMotion_smartcase = 1
-    --   vim.api.nvim_set_keymap("n", "<Leader><Leader>z", "<Plug>(easymotion-jumptoanywhere)", {})
-    -- end
-}
