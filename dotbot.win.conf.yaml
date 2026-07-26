@@ -14,13 +14,14 @@
     ~/.ideavimrc: home/.ideavimrc
     # neovim 配置
     ${LOCALAPPDATA}/nvim: nvim
+    # lazygit 配置
+    ${LOCALAPPDATA}/lazygit/config.yml: home/lazygit.config.yml
     # maven 配置
     ~/.m2/settings.xml: home/mvn-settings.xml
     # powershell 5 配置
     ~/Documents/WindowsPowerShell/profile.ps1: shell/profile.ps1
     # powershell 7 配置
     ~/Documents/PowerShell/profile.ps1: shell/profile.ps1
-    ~/Documents/PowerShell/conda.ps1: shell/conda.ps1
     # uv 配置
     ${APPDATA}/uv/uv.toml:
       create: true
