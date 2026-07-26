@@ -11,7 +11,10 @@ return {
         completion = {
             documentation = {
                 auto_show = true
-            }
+            },
+        },
+        fuzzy = {
+            implementation = "lua"
         },
         keymap = {
             preset = "super-tab",

@@ -20,7 +20,7 @@ vim.wo.cursorline = true
 -- 显示左侧图标指示列
 vim.wo.signcolumn = "yes"
 -- 右侧参考线
-vim.wo.colorcolumn = "160"
+-- vim.wo.colorcolumn = "160"
 -- 代码最长的长度
 vim.opt.colorcolumn = "80"
 
@@ -80,7 +80,6 @@ vim.g.completeopt = "menu,menuone,noselect,noinsert"
 -- 样式
 vim.opt.background = "dark"
 vim.opt.termguicolors = true
-vim.opt.termguicolors = true
 -- 不可见字符的显示，这里只把空格显示为一个点
 vim.opt.list = false
 vim.opt.listchars = "space:·,tab:>-"
@@ -93,4 +92,5 @@ vim.opt.pumheight = 13
 vim.opt.clipboard = "unnamedplus"
 
 -- 不需要显示状态信息
+-- lualine 已经显示
 vim.opt.showmode = false

@@ -42,3 +42,5 @@ vim.keymap.set({"n"}, "ge", function() vscode.action('editor.action.marker.nextI
 vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.action.previousEditor') end)
 -- 下一个编辑器
 vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)
+-- 显示资源管理器
+vim.keymap.set({"n", "v", "i"},"<leader><leader>e", function() vscode.action('workbench.view.explorer') end)

@@ -1,5 +1,6 @@
 return {
     "asvetliakov/vim-easymotion",
+    enable = false,
     name = "vsc-easymotion",
     -- config = function()
     --   vim.g.EasyMotion_smartcase = 1

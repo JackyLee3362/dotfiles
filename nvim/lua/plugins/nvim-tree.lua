@@ -7,8 +7,15 @@ return {
         actions = {
             open_file = {
                 -- 打开文件后关闭
-                -- quit_on_open = true
-            }
+                quit_on_open = true
+            },
+            
+        },
+        view = {
+            -- 开启行号
+            number = false,
+            --
+            relativenumber = true
         }
     },
     keys = {
@@ -21,4 +28,6 @@ return {
     -- x 剪贴文件
     -- p 粘贴文件
     -- r 重命名
+    -- ctrl+] 进入子目录
+    -- - 进入上层目录
 }
