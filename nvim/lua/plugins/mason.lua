@@ -1,4 +1,5 @@
 return {
+    -- 覆盖 nvim-lspconfig 默认配置
     "mason-org/mason.nvim",
     -- event = "VeryLazy",
     dependencies = {

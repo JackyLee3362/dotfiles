@@ -18,3 +18,6 @@ $env:UV_SYSTEM_PYTHON=1
 # linux 定义存储用户特定的配置文件的基准目录
 # 默认值是 $HOME/.config
 # $env:XDG_CONFIG_HOME="$HOME/.config"
+
+# 设置 oh-my-posh
+# oh-my-posh init pwsh | Invoke-Expression
