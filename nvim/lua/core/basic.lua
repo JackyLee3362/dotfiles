@@ -1,6 +1,9 @@
--- opt 作用域全局
--- wo 作用域当前窗口
--- bo 作用域是缓冲区
+-- vim.g --> 全局变量（Global）: 
+--           作用域: 整个 Neovim 实例，所有窗口、所有 buffer 共享
+-- vim.opt --> 全局选项（全局默认配置）
+--             作用域: 新建 buffer /window 的默认模板
+-- vim.bo --> buffer 缓冲区选项（单个文件）
+-- vim.wo --> window 窗口选项（单个窗口）
 
 -- 编码方式 utf8
 vim.g.encoding = "UTF-8"

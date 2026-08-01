@@ -1,3 +1,4 @@
+-- 进入 insertMode 会触发，只会执行一次
 vim.api.nvim_create_autocmd("InsertEnter", {
     callback = function()
         print("Insert Mode!")
@@ -5,6 +6,7 @@ vim.api.nvim_create_autocmd("InsertEnter", {
     once = true,
 })
 
+-- 如果打开 python 文件，会打印 OpenPython
 vim.api.nvim_create_autocmd("FileType", {
     pattern = "python",
     callback = function()
