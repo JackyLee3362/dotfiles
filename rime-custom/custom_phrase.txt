@@ -23,104 +23,112 @@
 #
 # 此行之后不能写注释
 
-🎉	tada 创建
-🎉	git 创建
-🎉init: 	init
+🎉	tada
+🎉	git 初始化
+🎉init: 项目初始化	init
 
 🚧	construction
 🚧	git 开发
-🚧wip: 	wip 开发
+🚧wip: 开发中	wip
 
 ✅	white_check_mark
-✅	git 测试
-✅test: 	test
+✅	done
+
+🧪	git 测试
+🧪test: 更新测试	test
 
 🎨	art
-🎨	git 格式化
-🎨style: 	style
+🎨	git 样式调整
+🎨style: 样式调整	style
 
-📚	git 文档
-📚	book
-📚doc: 	doc
+💄️	lipstick
+💄️	git UI美化
+💄️ui: UI美化	ui
 
 📝	memo
-📝	git 注释
-📝	comment
+📝	git 文档
+📝docs: 更新文档	docs
 
 🍱	bento
-🍱	git 资源
-🍱res: 	res 资源
+🍱	git 更新资源
+🍱res: 更新资源	res
 
-🔧	git 配置
-🔧conf: 	conf
-
-🙈	git ignore
-🙈	gitignore
-
-⚡️	git 性能
 ⚡️	zap
+⚡️	git 性能优化
+⚡️perf: 性能优化	perf
 
 🔥	fire
-🔥	git 删除
-🔥del: 	del 删除
+🔥	git 删除文件
+🔥del: 删除文件	del
 
 🐛	bug
 🐛	git bug
-🐛fix: 	fix
+🐛fix: 漏洞修复	fix
 
 ✨	sparkles
 ✨	git 特性
-✨feat: 	feat 特性
+✨feat: 功能开发	feat
 
 ♻️	recycle
 ♻️	git 重构
-♻️refactor: 	refactor 重构
+♻️refactor: 重构	refactor
 
 🏗️	architectural
 🏗️	git 架构
-🏗️arch:  arch 架构调整
-
+🏗️arch: 架构调整	arch
 
 🔖	bookmark
 🔖	git 发版
-🔖	version 发版
+🔖version: 版本发布	version 发版
 
 📦️	package
-📦️	git 备份
-📦️bak: 	bak 备份
+📦️	git 打包
+📦️pak: 打包	pak 打包
 
-💄️	lipstick
-💄️	git 美化
-💄️	ui 美化
+💾	git 备份
+💾bak: 备份	bak 备份
 
 🚚	truck
 🚚	git 重命名
-🚚rename: 	rename 重命名
-🚚move: 	move 移动
+🚚rename: 重命名文件	rename
+🚚move: 移动文件	move
 
 💡	bulb
 💡	git 想法
 💡	idea 想法
 
-🔨	hammer
-🔨	git 构建
-🔨chore: 	chore
-
-✏️	pencil2
+✏️	pencil
 ✏️	git 勘误
-✏️typo: 	typo 勘误
+✏️typo: 勘误	typo
 
 ➕	git 新增依赖
-➕deps: 	deps
+➕add: 新增依赖	add
 
 ➖	git 删除依赖
-➖deps: 	deps
+➖remove: 删除依赖	remove
 
-⬆️	git 升级依赖
-⬆️deps: 	deps
+🔨	hammer
+🔨	git 构建
+🔨build: 构建系统变更	build
 
-⬇️	git 降级依赖
-⬇️deps: 	deps
+🔧	wrench
+🔧	git 杂项
+🔧chore: 杂项	chore
+
+🔼	git 升级依赖
+🔼upgrade: 升级依赖	up
+
+🔽	git 降级依赖
+🔽downgrade: 降级依赖	down
+
+⚙️	git 更新配置
+⚙️config: 更新配置	conf
+⚙️config: 更新配置	config
+
+⭐	star
+
+🙈	git ignore
+🙈	gitignore
 
 噷	hm
 呣	m
