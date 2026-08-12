@@ -11,7 +11,7 @@
     # idea 配置
     ~/.ideavimrc: home/.ideavimrc
     # zshrc 配置 {os:操作系统}.{device:设备}.{env:环境}.{文件名}
-    ~/.zshrc: shell/work.mac.zshrc
+    ~/.zshrc: shell/linux.zshrc
     ~/.p10k.zsh: shell/.p10k.zsh
     # linux / macos 专属
     ~/.config/nvim: nvim
