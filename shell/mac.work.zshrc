@@ -209,4 +209,7 @@ export PATH="/Users/jackylee/.catpaw/bin:$PATH"
 # 增加 rust-cargo 依赖
 . "$HOME/.cargo/env"
 
+
+export PATH="$HOME/.local/bin:$PATH"
+
 source ~/.moaextrc

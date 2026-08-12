@@ -10,8 +10,10 @@ set which-key
 " prefix j 向上行
 " prefix k 向下行
 " prefix w 单词查找
-" set easymotion
-" map <leader> <Plug>(easymotion-prefix)
+
+noremap s <Nop>
+set easymotion
+nmap ss <Plug>(easymotion-prefix)
 
 set NERDTree
 

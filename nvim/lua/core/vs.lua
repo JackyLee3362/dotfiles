@@ -44,3 +44,6 @@ vim.keymap.set({"n", "v", "i"},"<pageUp>", function() vscode.action('workbench.a
 vim.keymap.set({"n", "v", "i"},"<pageDown>", function() vscode.action('workbench.action.nextEditor') end)
 -- 显示资源管理器
 vim.keymap.set({"n", "v", "i"},"<leader><leader>e", function() vscode.action('workbench.view.explorer') end)
+
+-- 聚焦大纲
+vim.keymap.set({"n", "v", "i"}, "<leader>s", function() vscode.action('outline.focus') end)

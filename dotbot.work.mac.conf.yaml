@@ -17,6 +17,8 @@
     ~/.config/nvim: nvim
     # uv 配置
     ~/.config/uv/uv.toml: home/uv.toml
+    # tmux 配置
+    ~/.tmux.conf: home/.tmux.conf
     # Rime 配置
     ~/Library/Rime/default.custom.yaml:
       path: rime-custom/default.custom.yaml
